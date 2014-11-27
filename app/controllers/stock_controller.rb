@@ -4,7 +4,7 @@ class StockController < ApplicationController
 
   GOOGLE_CLIENT_ID = "577293815693-9gqt0bfp5ei3la98uck623pgjjejk25h.apps.googleusercontent.com"
   GOOGLE_CLIENT_SECRET = "2trxtmfTQkr5fr3_bH3Q_Zjc"
-  GOOGLE_CLIENT_REDIRECT_URI = "http://localhost:3000/oauth2callback"
+  GOOGLE_CLIENT_REDIRECT_URI = "http://aga-osl.herokuapp.com/oauth2callback"
 
   def index
     google_session = GoogleDrive.login_with_oauth(session[:google_token])
