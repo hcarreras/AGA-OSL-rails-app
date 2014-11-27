@@ -1,0 +1,1750 @@
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-24 17:47:49 +0100
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /Users/haricarreras/.rvm/rubies/ruby-2.1.3/lib/ruby/gems/2.1.0/gems/railties-4.0.12/lib/rails/templates/rails/welcome/index.html.erb (1.5ms)
+Completed 200 OK in 15ms (Views: 7.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-24 18:29:35 +0100
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /Users/haricarreras/.rvm/rubies/ruby-2.1.3/lib/ruby/gems/2.1.0/gems/railties-4.0.12/lib/rails/templates/rails/welcome/index.html.erb (1.2ms)
+Completed 200 OK in 13ms (Views: 5.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-24 18:29:55 +0100
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /Users/haricarreras/.rvm/rubies/ruby-2.1.3/lib/ruby/gems/2.1.0/gems/railties-4.0.12/lib/rails/templates/rails/welcome/index.html.erb (0.0ms)
+Completed 200 OK in 2ms (Views: 1.8ms)
+
+
+Started GET "/?code=4/WNCCqjRfq1FQ730DeMjhH7HVmek3DALuR55fNbdI0-k.IhmPUmkZcuIYoiIBeO6P2m-QVMbFkwI" for 127.0.0.1 at 2014-11-24 18:37:38 +0100
+Processing by Rails::WelcomeController#index as HTML
+  Parameters: {"code"=>"4/WNCCqjRfq1FQ730DeMjhH7HVmek3DALuR55fNbdI0-k.IhmPUmkZcuIYoiIBeO6P2m-QVMbFkwI"}
+  Rendered /Users/haricarreras/.rvm/rubies/ruby-2.1.3/lib/ruby/gems/2.1.0/gems/railties-4.0.12/lib/rails/templates/rails/welcome/index.html.erb (5.1ms)
+Completed 200 OK in 18ms (Views: 9.9ms)
+
+
+Started GET "/oauthcallbacl?code=4/WNCCqjRfq1FQ730DeMjhH7HVmek3DALuR55fNbdI0-k.IhmPUmkZcuIYoiIBeO6P2m-QVMbFkwI" for 127.0.0.1 at 2014-11-24 18:38:01 +0100
+
+ActionController::RoutingError (No route matches [GET] "/oauthcallbacl"):
+  actionpack (4.0.12) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.12) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.12) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.12) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.12) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.0.12) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.0.12) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.0.12) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.12) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.12) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.12) lib/action_dispatch/middleware/static.rb:84:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.12) lib/rails/engine.rb:511:in `call'
+  railties (4.0.12) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/haricarreras/.rvm/rubies/ruby-2.1.3/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/haricarreras/.rvm/rubies/ruby-2.1.3/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/haricarreras/.rvm/rubies/ruby-2.1.3/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/haricarreras/.rvm/rubies/ruby-2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.0.12/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+  Rendered /Users/haricarreras/.rvm/rubies/ruby-2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.0.12/lib/action_dispatch/middleware/templates/routes/_table.html.erb (5.5ms)
+  Rendered /Users/haricarreras/.rvm/rubies/ruby-2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.0.12/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (17.7ms)
+
+
+Started GET "/?code=4/WNCCqjRfq1FQ730DeMjhH7HVmek3DALuR55fNbdI0-k.IhmPUmkZcuIYoiIBeO6P2m-QVMbFkwI" for 127.0.0.1 at 2014-11-24 18:38:09 +0100
+Processing by Rails::WelcomeController#index as HTML
+  Parameters: {"code"=>"4/WNCCqjRfq1FQ730DeMjhH7HVmek3DALuR55fNbdI0-k.IhmPUmkZcuIYoiIBeO6P2m-QVMbFkwI"}
+  Rendered /Users/haricarreras/.rvm/rubies/ruby-2.1.3/lib/ruby/gems/2.1.0/gems/railties-4.0.12/lib/rails/templates/rails/welcome/index.html.erb (0.1ms)
+Completed 200 OK in 2ms (Views: 1.7ms)
+
+
+Started GET "/?code=4/-go8TL_imw6SpGp_LU4RZZ0xRV2ptacZ_zVNhwpWufQ.cuNRHU4-JW0XoiIBeO6P2m9ic8rFkwI" for 127.0.0.1 at 2014-11-24 18:39:53 +0100
+Processing by Rails::WelcomeController#index as HTML
+  Parameters: {"code"=>"4/-go8TL_imw6SpGp_LU4RZZ0xRV2ptacZ_zVNhwpWufQ.cuNRHU4-JW0XoiIBeO6P2m9ic8rFkwI"}
+  Rendered /Users/haricarreras/.rvm/rubies/ruby-2.1.3/lib/ruby/gems/2.1.0/gems/railties-4.0.12/lib/rails/templates/rails/welcome/index.html.erb (0.0ms)
+Completed 200 OK in 2ms (Views: 1.4ms)
+
+
+Started GET "/?code=4/oPrTicQtq_B9ruc7aNhSx0OypopKs60PBg4nBb33SU8.cniAqSRx1IoVoiIBeO6P2m_AleHFkwI" for 127.0.0.1 at 2014-11-24 18:52:31 +0100
+Processing by Rails::WelcomeController#index as HTML
+  Parameters: {"code"=>"4/oPrTicQtq_B9ruc7aNhSx0OypopKs60PBg4nBb33SU8.cniAqSRx1IoVoiIBeO6P2m_AleHFkwI"}
+  Rendered /Users/haricarreras/.rvm/rubies/ruby-2.1.3/lib/ruby/gems/2.1.0/gems/railties-4.0.12/lib/rails/templates/rails/welcome/index.html.erb (0.0ms)
+Completed 200 OK in 2ms (Views: 1.3ms)
+
+
+Started GET "/?code=4/dzcvo-QQdx90UrspdXx64g-pHwb7eNZTb03zaTOdHBI.8rSjtjGGRsAToiIBeO6P2m_M9OrFkwI" for 127.0.0.1 at 2014-11-24 18:57:39 +0100
+Processing by Rails::WelcomeController#index as HTML
+  Parameters: {"code"=>"4/dzcvo-QQdx90UrspdXx64g-pHwb7eNZTb03zaTOdHBI.8rSjtjGGRsAToiIBeO6P2m_M9OrFkwI"}
+  Rendered /Users/haricarreras/.rvm/rubies/ruby-2.1.3/lib/ruby/gems/2.1.0/gems/railties-4.0.12/lib/rails/templates/rails/welcome/index.html.erb (0.0ms)
+Completed 200 OK in 1ms (Views: 1.3ms)
+
+
+Started GET "/?code=4/Hyx2ZPQrQbb8maUtafJwHcEqKg2sBhQBwfgvXLnjRJ4.cvzUKBcFsb0coiIBeO6P2m_umvDFkwI" for 127.0.0.1 at 2014-11-24 19:00:44 +0100
+Processing by Rails::WelcomeController#index as HTML
+  Parameters: {"code"=>"4/Hyx2ZPQrQbb8maUtafJwHcEqKg2sBhQBwfgvXLnjRJ4.cvzUKBcFsb0coiIBeO6P2m_umvDFkwI"}
+  Rendered /Users/haricarreras/.rvm/rubies/ruby-2.1.3/lib/ruby/gems/2.1.0/gems/railties-4.0.12/lib/rails/templates/rails/welcome/index.html.erb (0.0ms)
+Completed 200 OK in 2ms (Views: 1.4ms)
+
+
+Started GET "/?code=4/JRpVT5Mb502f6FbtQ7u2oJI3r_3yz8F5a9Kl2jnome0.EoSI_X45L_IUoiIBeO6P2m9M6fLFkwI" for 127.0.0.1 at 2014-11-24 19:01:59 +0100
+Processing by Rails::WelcomeController#index as HTML
+  Parameters: {"code"=>"4/JRpVT5Mb502f6FbtQ7u2oJI3r_3yz8F5a9Kl2jnome0.EoSI_X45L_IUoiIBeO6P2m9M6fLFkwI"}
+  Rendered /Users/haricarreras/.rvm/rubies/ruby-2.1.3/lib/ruby/gems/2.1.0/gems/railties-4.0.12/lib/rails/templates/rails/welcome/index.html.erb (0.0ms)
+Completed 200 OK in 2ms (Views: 1.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-24 19:10:25 +0100
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /Users/haricarreras/.rvm/rubies/ruby-2.1.3/lib/ruby/gems/2.1.0/gems/railties-4.0.12/lib/rails/templates/rails/welcome/index.html.erb (0.1ms)
+Completed 200 OK in 2ms (Views: 2.1ms)
+
+
+Started GET "/routes" for 127.0.0.1 at 2014-11-24 19:10:38 +0100
+
+ActionController::RoutingError (No route matches [GET] "/routes"):
+  actionpack (4.0.12) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.12) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.12) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.12) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.12) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.0.12) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.0.12) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.0.12) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.12) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.12) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.12) lib/action_dispatch/middleware/static.rb:84:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.12) lib/rails/engine.rb:511:in `call'
+  railties (4.0.12) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/haricarreras/.rvm/rubies/ruby-2.1.3/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/haricarreras/.rvm/rubies/ruby-2.1.3/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/haricarreras/.rvm/rubies/ruby-2.1.3/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/haricarreras/.rvm/rubies/ruby-2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.0.12/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.8ms)
+  Rendered /Users/haricarreras/.rvm/rubies/ruby-2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.0.12/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.9ms)
+  Rendered /Users/haricarreras/.rvm/rubies/ruby-2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.0.12/lib/action_dispatch/middleware/templates/routes/_table.html.erb (4.0ms)
+  Rendered /Users/haricarreras/.rvm/rubies/ruby-2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.0.12/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (23.3ms)
+
+
+Started GET "/google_drive" for 127.0.0.1 at 2014-11-24 19:10:50 +0100
+Processing by GoogleDriveController#index as HTML
+Completed 500 Internal Server Error in 10ms
+
+NameError (undefined local variable or method `client' for #<GoogleDriveController:0x007ff7db08c8b8>):
+  app/controllers/google_drive_controller.rb:3:in `index'
+
+
+  Rendered /Users/haricarreras/.rvm/rubies/ruby-2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.0.12/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.9ms)
+  Rendered /Users/haricarreras/.rvm/rubies/ruby-2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.0.12/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+  Rendered /Users/haricarreras/.rvm/rubies/ruby-2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.0.12/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+  Rendered /Users/haricarreras/.rvm/rubies/ruby-2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.0.12/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (17.5ms)
+
+
+Started GET "/google_drive" for 127.0.0.1 at 2014-11-24 19:11:23 +0100
+Processing by GoogleDriveController#index as HTML
+Completed 406 Not Acceptable in 1ms
+
+ActionController::UnknownFormat (ActionController::UnknownFormat):
+  app/controllers/google_drive_controller.rb:4:in `index'
+
+
+  Rendered /Users/haricarreras/.rvm/rubies/ruby-2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.0.12/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.4ms)
+  Rendered /Users/haricarreras/.rvm/rubies/ruby-2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.0.12/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.8ms)
+  Rendered /Users/haricarreras/.rvm/rubies/ruby-2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.0.12/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+  Rendered /Users/haricarreras/.rvm/rubies/ruby-2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.0.12/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (11.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-24 19:11:29 +0100
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /Users/haricarreras/.rvm/rubies/ruby-2.1.3/lib/ruby/gems/2.1.0/gems/railties-4.0.12/lib/rails/templates/rails/welcome/index.html.erb (1.0ms)
+Completed 200 OK in 4ms (Views: 3.7ms)
+
+
+Started GET "/google_drive?code=4/NYUaj0_QZ1lL6xq1ygAt6NTGhcsd7ssiY2K-A22Jgc8.MldRAuH8wysaoiIBeO6P2m9e2AfGkwI" for 127.0.0.1 at 2014-11-24 19:13:25 +0100
+Processing by GoogleDriveController#index as HTML
+  Parameters: {"code"=>"4/NYUaj0_QZ1lL6xq1ygAt6NTGhcsd7ssiY2K-A22Jgc8.MldRAuH8wysaoiIBeO6P2m9e2AfGkwI"}
+Completed 406 Not Acceptable in 0ms
+
+ActionController::UnknownFormat (ActionController::UnknownFormat):
+  app/controllers/google_drive_controller.rb:4:in `index'
+
+
+  Rendered /Users/haricarreras/.rvm/rubies/ruby-2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.0.12/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.5ms)
+  Rendered /Users/haricarreras/.rvm/rubies/ruby-2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.0.12/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+  Rendered /Users/haricarreras/.rvm/rubies/ruby-2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.0.12/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+  Rendered /Users/haricarreras/.rvm/rubies/ruby-2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.0.12/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (11.6ms)
+
+
+Started GET "/google_drive?code=4/NYUaj0_QZ1lL6xq1ygAt6NTGhcsd7ssiY2K-A22Jgc8.MldRAuH8wysaoiIBeO6P2m9e2AfGkwI.json" for 127.0.0.1 at 2014-11-24 19:13:38 +0100
+Processing by GoogleDriveController#index as HTML
+  Parameters: {"code"=>"4/NYUaj0_QZ1lL6xq1ygAt6NTGhcsd7ssiY2K-A22Jgc8.MldRAuH8wysaoiIBeO6P2m9e2AfGkwI.json"}
+Completed 406 Not Acceptable in 0ms
+
+ActionController::UnknownFormat (ActionController::UnknownFormat):
+  app/controllers/google_drive_controller.rb:4:in `index'
+
+
+  Rendered /Users/haricarreras/.rvm/rubies/ruby-2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.0.12/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.0ms)
+  Rendered /Users/haricarreras/.rvm/rubies/ruby-2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.0.12/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.6ms)
+  Rendered /Users/haricarreras/.rvm/rubies/ruby-2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.0.12/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+  Rendered /Users/haricarreras/.rvm/rubies/ruby-2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.0.12/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (17.8ms)
+
+
+Started GET "/google_drive?code=4/NYUaj0_QZ1lL6xq1ygAt6NTGhcsd7ssiY2K-A22Jgc8.MldRAuH8wysaoiIBeO6P2m9e2AfGkwI.json" for 127.0.0.1 at 2014-11-24 19:14:13 +0100
+Processing by GoogleDriveController#index as HTML
+  Parameters: {"code"=>"4/NYUaj0_QZ1lL6xq1ygAt6NTGhcsd7ssiY2K-A22Jgc8.MldRAuH8wysaoiIBeO6P2m9e2AfGkwI.json"}
+  Rendered google_drive/index.html.erb within layouts/application (0.8ms)
+Completed 500 Internal Server Error in 3ms
+
+ActionView::Template::Error (undefined method `to_yml' for #<String:0x007ff7d960b778>):
+    1: <h1>Google Drive</h1>
+    2: <p>Code: <%= @token.to_yml%></p>
+  app/views/google_drive/index.html.erb:2:in `_app_views_google_drive_index_html_erb___1618914423851447336_70351240286680'
+
+
+  Rendered /Users/haricarreras/.rvm/rubies/ruby-2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.0.12/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+  Rendered /Users/haricarreras/.rvm/rubies/ruby-2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.0.12/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+  Rendered /Users/haricarreras/.rvm/rubies/ruby-2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.0.12/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (10.4ms)
+
+
+Started GET "/google_drive?code=4/NYUaj0_QZ1lL6xq1ygAt6NTGhcsd7ssiY2K-A22Jgc8.MldRAuH8wysaoiIBeO6P2m9e2AfGkwI" for 127.0.0.1 at 2014-11-24 19:14:16 +0100
+Processing by GoogleDriveController#index as HTML
+  Parameters: {"code"=>"4/NYUaj0_QZ1lL6xq1ygAt6NTGhcsd7ssiY2K-A22Jgc8.MldRAuH8wysaoiIBeO6P2m9e2AfGkwI"}
+  Rendered google_drive/index.html.erb within layouts/application (0.5ms)
+Completed 500 Internal Server Error in 2ms
+
+ActionView::Template::Error (undefined method `to_yml' for #<String:0x007ff7d93a34e0>):
+    1: <h1>Google Drive</h1>
+    2: <p>Code: <%= @token.to_yml%></p>
+  app/views/google_drive/index.html.erb:2:in `_app_views_google_drive_index_html_erb___1618914423851447336_70351240286680'
+
+
+  Rendered /Users/haricarreras/.rvm/rubies/ruby-2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.0.12/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+  Rendered /Users/haricarreras/.rvm/rubies/ruby-2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.0.12/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+  Rendered /Users/haricarreras/.rvm/rubies/ruby-2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.0.12/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (31.3ms)
+
+
+Started GET "/google_drive?code=4/NYUaj0_QZ1lL6xq1ygAt6NTGhcsd7ssiY2K-A22Jgc8.MldRAuH8wysaoiIBeO6P2m9e2AfGkwI" for 127.0.0.1 at 2014-11-24 19:14:38 +0100
+Processing by GoogleDriveController#index as HTML
+  Parameters: {"code"=>"4/NYUaj0_QZ1lL6xq1ygAt6NTGhcsd7ssiY2K-A22Jgc8.MldRAuH8wysaoiIBeO6P2m9e2AfGkwI"}
+  Rendered google_drive/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 354ms (Views: 353.3ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-24 19:14:39 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-24 19:14:39 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-24 19:14:39 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-24 19:14:39 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-24 19:14:39 +0100
+
+
+Started GET "/google_drive?code=4/2I-uTiKeBwPXctGxqNgYd557y_VllqL0uBulbC1Zs6M.snA5IGuElrAVoiIBeO6P2m_SiQvGkwI" for 127.0.0.1 at 2014-11-24 19:15:26 +0100
+Processing by GoogleDriveController#index as HTML
+  Parameters: {"code"=>"4/2I-uTiKeBwPXctGxqNgYd557y_VllqL0uBulbC1Zs6M.snA5IGuElrAVoiIBeO6P2m_SiQvGkwI"}
+  Rendered google_drive/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 4ms (Views: 3.1ms)
+
+
+Started GET "/google_drive?code=4/L9__Uop_FZQyr-vNPpSJzE6H3JmJODh56rMwsXq2GjM.coFr1ewDagUdoiIBeO6P2m_kuhbGkwI" for 127.0.0.1 at 2014-11-24 19:21:33 +0100
+Processing by GoogleDriveController#index as HTML
+  Parameters: {"code"=>"4/L9__Uop_FZQyr-vNPpSJzE6H3JmJODh56rMwsXq2GjM.coFr1ewDagUdoiIBeO6P2m_kuhbGkwI"}
+  Rendered google_drive/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 3ms (Views: 2.7ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-24 19:21:33 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-24 19:21:33 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-24 19:21:33 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-24 19:21:33 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-24 19:21:33 +0100
+
+
+Started GET "/google_drive" for 127.0.0.1 at 2014-11-24 19:45:27 +0100
+Processing by GoogleDriveController#index as HTML
+Completed 500 Internal Server Error in 7ms
+
+NameError (undefined local variable or method `authorization_code' for #<GoogleDriveController:0x007ff7d9773750>):
+  app/controllers/google_drive_controller.rb:15:in `index'
+
+
+  Rendered /Users/haricarreras/.rvm/rubies/ruby-2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.0.12/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.6ms)
+  Rendered /Users/haricarreras/.rvm/rubies/ruby-2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.0.12/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered /Users/haricarreras/.rvm/rubies/ruby-2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.0.12/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+  Rendered /Users/haricarreras/.rvm/rubies/ruby-2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.0.12/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (15.7ms)
+
+
+Started GET "/google_drive" for 127.0.0.1 at 2014-11-24 19:45:57 +0100
+Processing by GoogleDriveController#index as HTML
+Completed 500 Internal Server Error in 104ms
+
+NameError (undefined local variable or method `authorization_code' for #<GoogleDriveController:0x007ff7d936bcc0>):
+  app/controllers/google_drive_controller.rb:19:in `index'
+
+
+  Rendered /Users/haricarreras/.rvm/rubies/ruby-2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.0.12/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.5ms)
+  Rendered /Users/haricarreras/.rvm/rubies/ruby-2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.0.12/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+  Rendered /Users/haricarreras/.rvm/rubies/ruby-2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.0.12/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+  Rendered /Users/haricarreras/.rvm/rubies/ruby-2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.0.12/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (13.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-25 17:39:49 +0100
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /Users/haricarreras/.rvm/rubies/ruby-2.1.3/lib/ruby/gems/2.1.0/gems/railties-4.0.12/lib/rails/templates/rails/welcome/index.html.erb (1.6ms)
+Completed 200 OK in 21ms (Views: 12.8ms)
+
+
+Started GET "/list_google_doc" for 127.0.0.1 at 2014-11-25 17:40:04 +0100
+Processing by DocumentsController#list_google_docs as HTML
+Redirected to https://accounts.google.com/o/oauth2/auth?access_type=offline&client_id=577293815693-9gqt0bfp5ei3la98uck623pgjjejk25h.apps.googleusercontent.com&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Foauth2callback&response_type=code&scope=https%3A%2F%2Fdocs.google.com%2Ffeeds%2F+https%3A%2F%2Fdocs.googleusercontent.com%2F+https%3A%2F%2Fspreadsheets.google.com%2Ffeeds%2F
+Filter chain halted as :google_drive_login rendered or redirected
+Completed 302 Found in 4ms
+
+
+Started GET "/oauth2callback?code=4/QiEStQv1qym1dc8ah44kOzHrkUEGxvkQBlCEmjNDkMU.AhIBP5bYJqwVoiIBeO6P2m82x6nPkwI" for 127.0.0.1 at 2014-11-25 17:40:09 +0100
+Processing by DocumentsController#set_google_drive_token as HTML
+  Parameters: {"code"=>"4/QiEStQv1qym1dc8ah44kOzHrkUEGxvkQBlCEmjNDkMU.AhIBP5bYJqwVoiIBeO6P2m82x6nPkwI"}
+Redirected to http://localhost:3000/list_google_doc
+Completed 302 Found in 733ms
+
+
+Started GET "/list_google_doc" for 127.0.0.1 at 2014-11-25 17:40:10 +0100
+Processing by DocumentsController#list_google_docs as HTML
+Completed 500 Internal Server Error in 2235ms
+
+ActionView::MissingTemplate (Missing template documents/list_google_docs, application/list_google_docs with {:locale=>[:en], :formats=>[:html], :handlers=>[:erb, :builder, :raw, :ruby, :jbuilder, :coffee]}. Searched in:
+  * "/Users/haricarreras/Universidad/5º informatica/IV/rails_app/app/views"
+):
+  actionpack (4.0.12) lib/action_view/path_set.rb:46:in `find'
+  actionpack (4.0.12) lib/action_view/lookup_context.rb:122:in `find'
+  actionpack (4.0.12) lib/action_view/renderer/abstract_renderer.rb:18:in `find_template'
+  actionpack (4.0.12) lib/action_view/renderer/template_renderer.rb:35:in `determine_template'
+  actionpack (4.0.12) lib/action_view/renderer/template_renderer.rb:8:in `render'
+  actionpack (4.0.12) lib/action_view/renderer/renderer.rb:42:in `render_template'
+  actionpack (4.0.12) lib/action_view/renderer/renderer.rb:23:in `render'
+  actionpack (4.0.12) lib/abstract_controller/rendering.rb:127:in `_render_template'
+  actionpack (4.0.12) lib/action_controller/metal/streaming.rb:219:in `_render_template'
+  actionpack (4.0.12) lib/abstract_controller/rendering.rb:120:in `render_to_body'
+  actionpack (4.0.12) lib/action_controller/metal/rendering.rb:33:in `render_to_body'
+  actionpack (4.0.12) lib/action_controller/metal/renderers.rb:26:in `render_to_body'
+  actionpack (4.0.12) lib/abstract_controller/rendering.rb:97:in `render'
+  actionpack (4.0.12) lib/action_controller/metal/rendering.rb:16:in `render'
+  actionpack (4.0.12) lib/action_controller/metal/instrumentation.rb:41:in `block (2 levels) in render'
+  activesupport (4.0.12) lib/active_support/core_ext/benchmark.rb:12:in `block in ms'
+  /Users/haricarreras/.rvm/rubies/ruby-2.1.3/lib/ruby/2.1.0/benchmark.rb:294:in `realtime'
+  activesupport (4.0.12) lib/active_support/core_ext/benchmark.rb:12:in `ms'
+  actionpack (4.0.12) lib/action_controller/metal/instrumentation.rb:41:in `block in render'
+  actionpack (4.0.12) lib/action_controller/metal/instrumentation.rb:84:in `cleanup_view_runtime'
+  actionpack (4.0.12) lib/action_controller/metal/instrumentation.rb:40:in `render'
+  actionpack (4.0.12) lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+  actionpack (4.0.12) lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+  actionpack (4.0.12) lib/abstract_controller/base.rb:189:in `process_action'
+  actionpack (4.0.12) lib/action_controller/metal/rendering.rb:10:in `process_action'
+  actionpack (4.0.12) lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+  activesupport (4.0.12) lib/active_support/callbacks.rb:413:in `_run__4543777375167596396__process_action__callbacks'
+  activesupport (4.0.12) lib/active_support/callbacks.rb:80:in `run_callbacks'
+  actionpack (4.0.12) lib/abstract_controller/callbacks.rb:17:in `process_action'
+  actionpack (4.0.12) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (4.0.12) lib/action_controller/metal/instrumentation.rb:31:in `block in process_action'
+  activesupport (4.0.12) lib/active_support/notifications.rb:159:in `block in instrument'
+  activesupport (4.0.12) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.0.12) lib/active_support/notifications.rb:159:in `instrument'
+  actionpack (4.0.12) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+  actionpack (4.0.12) lib/action_controller/metal/params_wrapper.rb:250:in `process_action'
+  actionpack (4.0.12) lib/abstract_controller/base.rb:136:in `process'
+  actionpack (4.0.12) lib/abstract_controller/rendering.rb:44:in `process'
+  actionpack (4.0.12) lib/action_controller/metal.rb:195:in `dispatch'
+  actionpack (4.0.12) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.0.12) lib/action_controller/metal.rb:231:in `block in action'
+  actionpack (4.0.12) lib/action_dispatch/routing/route_set.rb:82:in `call'
+  actionpack (4.0.12) lib/action_dispatch/routing/route_set.rb:82:in `dispatch'
+  actionpack (4.0.12) lib/action_dispatch/routing/route_set.rb:50:in `call'
+  actionpack (4.0.12) lib/action_dispatch/journey/router.rb:71:in `block in call'
+  actionpack (4.0.12) lib/action_dispatch/journey/router.rb:59:in `each'
+  actionpack (4.0.12) lib/action_dispatch/journey/router.rb:59:in `call'
+  actionpack (4.0.12) lib/action_dispatch/routing/route_set.rb:676:in `call'
+  rack (1.5.2) lib/rack/etag.rb:23:in `call'
+  rack (1.5.2) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.5.2) lib/rack/head.rb:11:in `call'
+  actionpack (4.0.12) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.0.12) lib/action_dispatch/middleware/flash.rb:241:in `call'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.0.12) lib/action_dispatch/middleware/cookies.rb:486:in `call'
+  actionpack (4.0.12) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.0.12) lib/active_support/callbacks.rb:373:in `_run__3691485008938697462__call__callbacks'
+  activesupport (4.0.12) lib/active_support/callbacks.rb:80:in `run_callbacks'
+  actionpack (4.0.12) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.0.12) lib/action_dispatch/middleware/reloader.rb:64:in `call'
+  actionpack (4.0.12) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.0.12) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.0.12) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.12) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.12) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.12) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.0.12) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.0.12) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.0.12) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.12) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.12) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.12) lib/action_dispatch/middleware/static.rb:84:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.12) lib/rails/engine.rb:511:in `call'
+  railties (4.0.12) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/haricarreras/.rvm/rubies/ruby-2.1.3/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/haricarreras/.rvm/rubies/ruby-2.1.3/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/haricarreras/.rvm/rubies/ruby-2.1.3/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/haricarreras/.rvm/rubies/ruby-2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.0.12/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (0.5ms)
+
+
+Started GET "/list_google_doc" for 127.0.0.1 at 2014-11-25 17:40:39 +0100
+Processing by DocumentsController#list_google_docs as HTML
+  Rendered documents/list_google_docs.html.erb within layouts/application (7.5ms)
+Completed 200 OK in 1564ms (Views: 48.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-25 17:40:40 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-25 17:40:40 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-25 17:40:40 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-25 17:40:40 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-25 17:40:40 +0100
+
+
+Started POST "/download_google_doc" for 127.0.0.1 at 2014-11-25 17:46:21 +0100
+
+ActionController::RoutingError (No route matches [POST] "/download_google_doc"):
+  actionpack (4.0.12) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.12) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.12) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.12) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.12) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.0.12) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.0.12) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.0.12) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.12) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.12) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.12) lib/action_dispatch/middleware/static.rb:84:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.12) lib/rails/engine.rb:511:in `call'
+  railties (4.0.12) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/haricarreras/.rvm/rubies/ruby-2.1.3/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/haricarreras/.rvm/rubies/ruby-2.1.3/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/haricarreras/.rvm/rubies/ruby-2.1.3/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/haricarreras/.rvm/rubies/ruby-2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.0.12/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+  Rendered /Users/haricarreras/.rvm/rubies/ruby-2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.0.12/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.2ms)
+  Rendered /Users/haricarreras/.rvm/rubies/ruby-2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.0.12/lib/action_dispatch/middleware/templates/routes/_table.html.erb (5.6ms)
+  Rendered /Users/haricarreras/.rvm/rubies/ruby-2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.0.12/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (32.8ms)
+
+
+Started POST "/download_google_doc" for 127.0.0.1 at 2014-11-25 17:46:40 +0100
+
+ActionController::RoutingError (No route matches [POST] "/download_google_doc"):
+  actionpack (4.0.12) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.12) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.12) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.12) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.12) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.0.12) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.0.12) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.0.12) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.12) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.12) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.12) lib/action_dispatch/middleware/static.rb:84:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.12) lib/rails/engine.rb:511:in `call'
+  railties (4.0.12) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/haricarreras/.rvm/rubies/ruby-2.1.3/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/haricarreras/.rvm/rubies/ruby-2.1.3/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/haricarreras/.rvm/rubies/ruby-2.1.3/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/haricarreras/.rvm/rubies/ruby-2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.0.12/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+  Rendered /Users/haricarreras/.rvm/rubies/ruby-2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.0.12/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.2ms)
+  Rendered /Users/haricarreras/.rvm/rubies/ruby-2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.0.12/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.9ms)
+  Rendered /Users/haricarreras/.rvm/rubies/ruby-2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.0.12/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (22.7ms)
+
+
+Started GET "/list_google_doc" for 127.0.0.1 at 2014-11-25 17:46:57 +0100
+Processing by DocumentsController#list_google_docs as HTML
+  Rendered documents/list_google_docs.html.erb within layouts/application (5.5ms)
+Completed 200 OK in 1686ms (Views: 29.1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-25 17:46:59 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-25 17:46:59 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-25 17:46:59 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-25 17:46:59 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-25 17:46:59 +0100
+
+
+Started POST "/download_google_doc" for 127.0.0.1 at 2014-11-25 17:47:04 +0100
+
+ActionController::RoutingError (No route matches [POST] "/download_google_doc"):
+  actionpack (4.0.12) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.12) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.12) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.12) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.12) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.0.12) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.0.12) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.0.12) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.12) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.12) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.12) lib/action_dispatch/middleware/static.rb:84:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.12) lib/rails/engine.rb:511:in `call'
+  railties (4.0.12) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/haricarreras/.rvm/rubies/ruby-2.1.3/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/haricarreras/.rvm/rubies/ruby-2.1.3/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/haricarreras/.rvm/rubies/ruby-2.1.3/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/haricarreras/.rvm/rubies/ruby-2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.0.12/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.6ms)
+  Rendered /Users/haricarreras/.rvm/rubies/ruby-2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.0.12/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.1ms)
+  Rendered /Users/haricarreras/.rvm/rubies/ruby-2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.0.12/lib/action_dispatch/middleware/templates/routes/_table.html.erb (6.1ms)
+  Rendered /Users/haricarreras/.rvm/rubies/ruby-2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.0.12/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (53.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-26 17:56:23 +0100
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /Users/haricarreras/.rvm/rubies/ruby-2.1.3/lib/ruby/gems/2.1.0/gems/railties-4.0.12/lib/rails/templates/rails/welcome/index.html.erb (1.7ms)
+Completed 200 OK in 17ms (Views: 8.4ms)
+
+
+Started GET "/stock" for 127.0.0.1 at 2014-11-26 18:12:14 +0100
+
+ActionController::RoutingError (uninitialized constant StockController):
+  activesupport (4.0.12) lib/active_support/inflector/methods.rb:226:in `const_get'
+  activesupport (4.0.12) lib/active_support/inflector/methods.rb:226:in `block in constantize'
+  activesupport (4.0.12) lib/active_support/inflector/methods.rb:224:in `each'
+  activesupport (4.0.12) lib/active_support/inflector/methods.rb:224:in `inject'
+  activesupport (4.0.12) lib/active_support/inflector/methods.rb:224:in `constantize'
+  actionpack (4.0.12) lib/action_dispatch/routing/route_set.rb:78:in `controller_reference'
+  actionpack (4.0.12) lib/action_dispatch/routing/route_set.rb:68:in `controller'
+  actionpack (4.0.12) lib/action_dispatch/routing/route_set.rb:46:in `call'
+  actionpack (4.0.12) lib/action_dispatch/journey/router.rb:71:in `block in call'
+  actionpack (4.0.12) lib/action_dispatch/journey/router.rb:59:in `each'
+  actionpack (4.0.12) lib/action_dispatch/journey/router.rb:59:in `call'
+  actionpack (4.0.12) lib/action_dispatch/routing/route_set.rb:676:in `call'
+  rack (1.5.2) lib/rack/etag.rb:23:in `call'
+  rack (1.5.2) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.5.2) lib/rack/head.rb:11:in `call'
+  actionpack (4.0.12) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.0.12) lib/action_dispatch/middleware/flash.rb:241:in `call'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.0.12) lib/action_dispatch/middleware/cookies.rb:486:in `call'
+  actionpack (4.0.12) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.0.12) lib/active_support/callbacks.rb:373:in `_run__2797008490533893827__call__callbacks'
+  activesupport (4.0.12) lib/active_support/callbacks.rb:80:in `run_callbacks'
+  actionpack (4.0.12) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.0.12) lib/action_dispatch/middleware/reloader.rb:64:in `call'
+  actionpack (4.0.12) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.0.12) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.0.12) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.12) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.12) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.12) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.0.12) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.0.12) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.0.12) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.12) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.12) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.12) lib/action_dispatch/middleware/static.rb:84:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.12) lib/rails/engine.rb:511:in `call'
+  railties (4.0.12) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/haricarreras/.rvm/rubies/ruby-2.1.3/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/haricarreras/.rvm/rubies/ruby-2.1.3/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/haricarreras/.rvm/rubies/ruby-2.1.3/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/haricarreras/.rvm/rubies/ruby-2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.0.12/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.5ms)
+  Rendered /Users/haricarreras/.rvm/rubies/ruby-2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.0.12/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.5ms)
+  Rendered /Users/haricarreras/.rvm/rubies/ruby-2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.0.12/lib/action_dispatch/middleware/templates/routes/_table.html.erb (5.8ms)
+  Rendered /Users/haricarreras/.rvm/rubies/ruby-2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.0.12/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (46.2ms)
+
+
+Started GET "/stock" for 127.0.0.1 at 2014-11-26 18:12:42 +0100
+Processing by StockController#index as HTML
+Completed 500 Internal Server Error in 9ms
+
+GoogleDrive::Error (access_token is neither String, OAuth2::Token nor OAuth::Token: nil):
+  app/controllers/stock_controller.rb:10:in `index'
+
+
+  Rendered /Users/haricarreras/.rvm/rubies/ruby-2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.0.12/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.6ms)
+  Rendered /Users/haricarreras/.rvm/rubies/ruby-2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.0.12/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+  Rendered /Users/haricarreras/.rvm/rubies/ruby-2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.0.12/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.3ms)
+  Rendered /Users/haricarreras/.rvm/rubies/ruby-2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.0.12/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (22.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-26 18:12:51 +0100
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /Users/haricarreras/.rvm/rubies/ruby-2.1.3/lib/ruby/gems/2.1.0/gems/railties-4.0.12/lib/rails/templates/rails/welcome/index.html.erb (0.9ms)
+Completed 200 OK in 4ms (Views: 3.1ms)
+
+
+Started GET "/stock" for 127.0.0.1 at 2014-11-26 18:12:55 +0100
+Processing by StockController#index as HTML
+Completed 500 Internal Server Error in 0ms
+
+GoogleDrive::Error (access_token is neither String, OAuth2::Token nor OAuth::Token: nil):
+  app/controllers/stock_controller.rb:10:in `index'
+
+
+  Rendered /Users/haricarreras/.rvm/rubies/ruby-2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.0.12/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.5ms)
+  Rendered /Users/haricarreras/.rvm/rubies/ruby-2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.0.12/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+  Rendered /Users/haricarreras/.rvm/rubies/ruby-2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.0.12/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+  Rendered /Users/haricarreras/.rvm/rubies/ruby-2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.0.12/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (11.6ms)
+
+
+Started GET "/stock" for 127.0.0.1 at 2014-11-26 18:13:37 +0100
+Processing by StockController#index as HTML
+Redirected to https://accounts.google.com/o/oauth2/auth?access_type=offline&client_id=577293815693-9gqt0bfp5ei3la98uck623pgjjejk25h.apps.googleusercontent.com&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Foauth2callback&response_type=code&scope=https%3A%2F%2Fdocs.google.com%2Ffeeds%2F+https%3A%2F%2Fdocs.googleusercontent.com%2F+https%3A%2F%2Fspreadsheets.google.com%2Ffeeds%2F
+Filter chain halted as :google_drive_login rendered or redirected
+Completed 302 Found in 12ms
+
+
+Started GET "/oauth2callback?code=4/xCwWn0MIAk2GheMXEc4rGdlEt6sNJUa2-DemsAqDoRw.AqwXf0VcuHgaoiIBeO6P2m987jPakwI" for 127.0.0.1 at 2014-11-26 18:13:42 +0100
+Processing by StockController#index as HTML
+  Parameters: {"code"=>"4/xCwWn0MIAk2GheMXEc4rGdlEt6sNJUa2-DemsAqDoRw.AqwXf0VcuHgaoiIBeO6P2m987jPakwI"}
+Redirected to https://accounts.google.com/o/oauth2/auth?access_type=offline&client_id=577293815693-9gqt0bfp5ei3la98uck623pgjjejk25h.apps.googleusercontent.com&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Foauth2callback&response_type=code&scope=https%3A%2F%2Fdocs.google.com%2Ffeeds%2F+https%3A%2F%2Fdocs.googleusercontent.com%2F+https%3A%2F%2Fspreadsheets.google.com%2Ffeeds%2F
+Filter chain halted as :google_drive_login rendered or redirected
+Completed 302 Found in 1ms
+
+
+Started GET "/oauth2callback?code=4/IZm9mJwyf6cBk7sApIxxV9lEt6sNJUa2-DemsAqDoRw.0ms5aFBMiRUdoiIBeO6P2m8QEDTakwI" for 127.0.0.1 at 2014-11-26 18:13:46 +0100
+Processing by StockController#index as HTML
+  Parameters: {"code"=>"4/IZm9mJwyf6cBk7sApIxxV9lEt6sNJUa2-DemsAqDoRw.0ms5aFBMiRUdoiIBeO6P2m8QEDTakwI"}
+Redirected to https://accounts.google.com/o/oauth2/auth?access_type=offline&client_id=577293815693-9gqt0bfp5ei3la98uck623pgjjejk25h.apps.googleusercontent.com&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Foauth2callback&response_type=code&scope=https%3A%2F%2Fdocs.google.com%2Ffeeds%2F+https%3A%2F%2Fdocs.googleusercontent.com%2F+https%3A%2F%2Fspreadsheets.google.com%2Ffeeds%2F
+Filter chain halted as :google_drive_login rendered or redirected
+Completed 302 Found in 1ms
+
+
+Started GET "/oauth2callback?code=4/AjQKlzUZcJZhYmEieba_n9lEt6sNJUa2-DemsAqDoRw.wtTxy-DZSL0QoiIBeO6P2m92KzTakwI" for 127.0.0.1 at 2014-11-26 18:13:50 +0100
+Processing by StockController#index as HTML
+  Parameters: {"code"=>"4/AjQKlzUZcJZhYmEieba_n9lEt6sNJUa2-DemsAqDoRw.wtTxy-DZSL0QoiIBeO6P2m92KzTakwI"}
+Redirected to https://accounts.google.com/o/oauth2/auth?access_type=offline&client_id=577293815693-9gqt0bfp5ei3la98uck623pgjjejk25h.apps.googleusercontent.com&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Foauth2callback&response_type=code&scope=https%3A%2F%2Fdocs.google.com%2Ffeeds%2F+https%3A%2F%2Fdocs.googleusercontent.com%2F+https%3A%2F%2Fspreadsheets.google.com%2Ffeeds%2F
+Filter chain halted as :google_drive_login rendered or redirected
+Completed 302 Found in 1ms
+
+
+Started GET "/oauth2callback?code=4/wRqHnJBAz3K_8mrK4Mp1RZHILVUbOOMXjFKwjBHLUn4.otPMjBRSehgboiIBeO6P2m8-xEDakwI" for 127.0.0.1 at 2014-11-26 18:20:42 +0100
+
+ActionController::RoutingError (uninitialized constant DocumentsController):
+  activesupport (4.0.12) lib/active_support/inflector/methods.rb:226:in `const_get'
+  activesupport (4.0.12) lib/active_support/inflector/methods.rb:226:in `block in constantize'
+  activesupport (4.0.12) lib/active_support/inflector/methods.rb:224:in `each'
+  activesupport (4.0.12) lib/active_support/inflector/methods.rb:224:in `inject'
+  activesupport (4.0.12) lib/active_support/inflector/methods.rb:224:in `constantize'
+  actionpack (4.0.12) lib/action_dispatch/routing/route_set.rb:78:in `controller_reference'
+  actionpack (4.0.12) lib/action_dispatch/routing/route_set.rb:68:in `controller'
+  actionpack (4.0.12) lib/action_dispatch/routing/route_set.rb:46:in `call'
+  actionpack (4.0.12) lib/action_dispatch/journey/router.rb:71:in `block in call'
+  actionpack (4.0.12) lib/action_dispatch/journey/router.rb:59:in `each'
+  actionpack (4.0.12) lib/action_dispatch/journey/router.rb:59:in `call'
+  actionpack (4.0.12) lib/action_dispatch/routing/route_set.rb:676:in `call'
+  rack (1.5.2) lib/rack/etag.rb:23:in `call'
+  rack (1.5.2) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.5.2) lib/rack/head.rb:11:in `call'
+  actionpack (4.0.12) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.0.12) lib/action_dispatch/middleware/flash.rb:241:in `call'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.0.12) lib/action_dispatch/middleware/cookies.rb:486:in `call'
+  actionpack (4.0.12) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.0.12) lib/active_support/callbacks.rb:373:in `_run__2797008490533893827__call__callbacks'
+  activesupport (4.0.12) lib/active_support/callbacks.rb:80:in `run_callbacks'
+  actionpack (4.0.12) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.0.12) lib/action_dispatch/middleware/reloader.rb:64:in `call'
+  actionpack (4.0.12) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.0.12) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.0.12) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.12) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.12) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.12) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.0.12) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.0.12) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.0.12) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.12) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.12) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.12) lib/action_dispatch/middleware/static.rb:84:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.12) lib/rails/engine.rb:511:in `call'
+  railties (4.0.12) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/haricarreras/.rvm/rubies/ruby-2.1.3/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/haricarreras/.rvm/rubies/ruby-2.1.3/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/haricarreras/.rvm/rubies/ruby-2.1.3/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/haricarreras/.rvm/rubies/ruby-2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.0.12/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+  Rendered /Users/haricarreras/.rvm/rubies/ruby-2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.0.12/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.1ms)
+  Rendered /Users/haricarreras/.rvm/rubies/ruby-2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.0.12/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.8ms)
+  Rendered /Users/haricarreras/.rvm/rubies/ruby-2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.0.12/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (27.3ms)
+
+
+Started GET "/oauth2callback?code=4/wRqHnJBAz3K_8mrK4Mp1RZHILVUbOOMXjFKwjBHLUn4.otPMjBRSehgboiIBeO6P2m8-xEDakwI" for 127.0.0.1 at 2014-11-26 18:21:29 +0100
+
+ActionController::RoutingError (uninitialized constant DocumentsController):
+  activesupport (4.0.12) lib/active_support/inflector/methods.rb:226:in `const_get'
+  activesupport (4.0.12) lib/active_support/inflector/methods.rb:226:in `block in constantize'
+  activesupport (4.0.12) lib/active_support/inflector/methods.rb:224:in `each'
+  activesupport (4.0.12) lib/active_support/inflector/methods.rb:224:in `inject'
+  activesupport (4.0.12) lib/active_support/inflector/methods.rb:224:in `constantize'
+  actionpack (4.0.12) lib/action_dispatch/routing/route_set.rb:78:in `controller_reference'
+  actionpack (4.0.12) lib/action_dispatch/routing/route_set.rb:68:in `controller'
+  actionpack (4.0.12) lib/action_dispatch/routing/route_set.rb:46:in `call'
+  actionpack (4.0.12) lib/action_dispatch/journey/router.rb:71:in `block in call'
+  actionpack (4.0.12) lib/action_dispatch/journey/router.rb:59:in `each'
+  actionpack (4.0.12) lib/action_dispatch/journey/router.rb:59:in `call'
+  actionpack (4.0.12) lib/action_dispatch/routing/route_set.rb:676:in `call'
+  rack (1.5.2) lib/rack/etag.rb:23:in `call'
+  rack (1.5.2) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.5.2) lib/rack/head.rb:11:in `call'
+  actionpack (4.0.12) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.0.12) lib/action_dispatch/middleware/flash.rb:241:in `call'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.0.12) lib/action_dispatch/middleware/cookies.rb:486:in `call'
+  actionpack (4.0.12) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.0.12) lib/active_support/callbacks.rb:373:in `_run__2797008490533893827__call__callbacks'
+  activesupport (4.0.12) lib/active_support/callbacks.rb:80:in `run_callbacks'
+  actionpack (4.0.12) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.0.12) lib/action_dispatch/middleware/reloader.rb:64:in `call'
+  actionpack (4.0.12) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.0.12) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.0.12) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.12) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.12) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.12) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.0.12) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.0.12) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.0.12) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.12) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.12) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.12) lib/action_dispatch/middleware/static.rb:84:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.12) lib/rails/engine.rb:511:in `call'
+  railties (4.0.12) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/haricarreras/.rvm/rubies/ruby-2.1.3/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/haricarreras/.rvm/rubies/ruby-2.1.3/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/haricarreras/.rvm/rubies/ruby-2.1.3/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/haricarreras/.rvm/rubies/ruby-2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.0.12/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.8ms)
+  Rendered /Users/haricarreras/.rvm/rubies/ruby-2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.0.12/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.0ms)
+  Rendered /Users/haricarreras/.rvm/rubies/ruby-2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.0.12/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.8ms)
+  Rendered /Users/haricarreras/.rvm/rubies/ruby-2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.0.12/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (20.9ms)
+
+
+Started GET "/oauth2callback?code=4/tdtCTa4zzk6eI8O1Z_yHrRBXavNRbde_UqaRwT5utF0.MmhBI-kNpl0UoiIBeO6P2m_AUELakwI" for 127.0.0.1 at 2014-11-26 18:21:33 +0100
+
+ActionController::RoutingError (uninitialized constant DocumentsController):
+  activesupport (4.0.12) lib/active_support/inflector/methods.rb:226:in `const_get'
+  activesupport (4.0.12) lib/active_support/inflector/methods.rb:226:in `block in constantize'
+  activesupport (4.0.12) lib/active_support/inflector/methods.rb:224:in `each'
+  activesupport (4.0.12) lib/active_support/inflector/methods.rb:224:in `inject'
+  activesupport (4.0.12) lib/active_support/inflector/methods.rb:224:in `constantize'
+  actionpack (4.0.12) lib/action_dispatch/routing/route_set.rb:78:in `controller_reference'
+  actionpack (4.0.12) lib/action_dispatch/routing/route_set.rb:68:in `controller'
+  actionpack (4.0.12) lib/action_dispatch/routing/route_set.rb:46:in `call'
+  actionpack (4.0.12) lib/action_dispatch/journey/router.rb:71:in `block in call'
+  actionpack (4.0.12) lib/action_dispatch/journey/router.rb:59:in `each'
+  actionpack (4.0.12) lib/action_dispatch/journey/router.rb:59:in `call'
+  actionpack (4.0.12) lib/action_dispatch/routing/route_set.rb:676:in `call'
+  rack (1.5.2) lib/rack/etag.rb:23:in `call'
+  rack (1.5.2) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.5.2) lib/rack/head.rb:11:in `call'
+  actionpack (4.0.12) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.0.12) lib/action_dispatch/middleware/flash.rb:241:in `call'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.0.12) lib/action_dispatch/middleware/cookies.rb:486:in `call'
+  actionpack (4.0.12) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.0.12) lib/active_support/callbacks.rb:373:in `_run__2797008490533893827__call__callbacks'
+  activesupport (4.0.12) lib/active_support/callbacks.rb:80:in `run_callbacks'
+  actionpack (4.0.12) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.0.12) lib/action_dispatch/middleware/reloader.rb:64:in `call'
+  actionpack (4.0.12) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.0.12) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.0.12) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.12) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.12) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.12) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.0.12) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.0.12) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.0.12) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.12) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.12) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.12) lib/action_dispatch/middleware/static.rb:84:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.12) lib/rails/engine.rb:511:in `call'
+  railties (4.0.12) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/haricarreras/.rvm/rubies/ruby-2.1.3/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/haricarreras/.rvm/rubies/ruby-2.1.3/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/haricarreras/.rvm/rubies/ruby-2.1.3/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/haricarreras/.rvm/rubies/ruby-2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.0.12/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.7ms)
+  Rendered /Users/haricarreras/.rvm/rubies/ruby-2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.0.12/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.0ms)
+  Rendered /Users/haricarreras/.rvm/rubies/ruby-2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.0.12/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.8ms)
+  Rendered /Users/haricarreras/.rvm/rubies/ruby-2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.0.12/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (22.8ms)
+
+
+Started GET "/stock" for 127.0.0.1 at 2014-11-26 18:21:53 +0100
+Processing by StockController#index as HTML
+Redirected to https://accounts.google.com/o/oauth2/auth?access_type=offline&client_id=577293815693-9gqt0bfp5ei3la98uck623pgjjejk25h.apps.googleusercontent.com&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Foauth2callback&response_type=code&scope=https%3A%2F%2Fdocs.google.com%2Ffeeds%2F+https%3A%2F%2Fdocs.googleusercontent.com%2F+https%3A%2F%2Fspreadsheets.google.com%2Ffeeds%2F
+Filter chain halted as :google_drive_login rendered or redirected
+Completed 302 Found in 10ms
+
+
+Started GET "/oauth2callback?code=4/mjEQt9VVx8U38p_Tf7WAwRBXavNRbde_UqaRwT5utF0.Ivh6tiH84twfoiIBeO6P2m8GA0PakwI" for 127.0.0.1 at 2014-11-26 18:21:56 +0100
+
+ActionController::RoutingError (uninitialized constant DocumentsController):
+  activesupport (4.0.12) lib/active_support/inflector/methods.rb:226:in `const_get'
+  activesupport (4.0.12) lib/active_support/inflector/methods.rb:226:in `block in constantize'
+  activesupport (4.0.12) lib/active_support/inflector/methods.rb:224:in `each'
+  activesupport (4.0.12) lib/active_support/inflector/methods.rb:224:in `inject'
+  activesupport (4.0.12) lib/active_support/inflector/methods.rb:224:in `constantize'
+  actionpack (4.0.12) lib/action_dispatch/routing/route_set.rb:78:in `controller_reference'
+  actionpack (4.0.12) lib/action_dispatch/routing/route_set.rb:68:in `controller'
+  actionpack (4.0.12) lib/action_dispatch/routing/route_set.rb:46:in `call'
+  actionpack (4.0.12) lib/action_dispatch/journey/router.rb:71:in `block in call'
+  actionpack (4.0.12) lib/action_dispatch/journey/router.rb:59:in `each'
+  actionpack (4.0.12) lib/action_dispatch/journey/router.rb:59:in `call'
+  actionpack (4.0.12) lib/action_dispatch/routing/route_set.rb:676:in `call'
+  rack (1.5.2) lib/rack/etag.rb:23:in `call'
+  rack (1.5.2) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.5.2) lib/rack/head.rb:11:in `call'
+  actionpack (4.0.12) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.0.12) lib/action_dispatch/middleware/flash.rb:241:in `call'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.0.12) lib/action_dispatch/middleware/cookies.rb:486:in `call'
+  actionpack (4.0.12) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.0.12) lib/active_support/callbacks.rb:373:in `_run__2773916963396527600__call__callbacks'
+  activesupport (4.0.12) lib/active_support/callbacks.rb:80:in `run_callbacks'
+  actionpack (4.0.12) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.0.12) lib/action_dispatch/middleware/reloader.rb:64:in `call'
+  actionpack (4.0.12) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.0.12) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.0.12) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.12) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.12) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.12) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.0.12) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.0.12) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.0.12) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.12) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.12) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.12) lib/action_dispatch/middleware/static.rb:84:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.12) lib/rails/engine.rb:511:in `call'
+  railties (4.0.12) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/haricarreras/.rvm/rubies/ruby-2.1.3/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/haricarreras/.rvm/rubies/ruby-2.1.3/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/haricarreras/.rvm/rubies/ruby-2.1.3/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/haricarreras/.rvm/rubies/ruby-2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.0.12/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+  Rendered /Users/haricarreras/.rvm/rubies/ruby-2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.0.12/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.0ms)
+  Rendered /Users/haricarreras/.rvm/rubies/ruby-2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.0.12/lib/action_dispatch/middleware/templates/routes/_table.html.erb (3.2ms)
+  Rendered /Users/haricarreras/.rvm/rubies/ruby-2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.0.12/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (28.4ms)
+
+
+Started GET "/oauth2callback?code=4/mjEQt9VVx8U38p_Tf7WAwRBXavNRbde_UqaRwT5utF0.Ivh6tiH84twfoiIBeO6P2m8GA0PakwI" for 127.0.0.1 at 2014-11-26 18:22:07 +0100
+Processing by StockController#set_google_drive_token as HTML
+  Parameters: {"code"=>"4/mjEQt9VVx8U38p_Tf7WAwRBXavNRbde_UqaRwT5utF0.Ivh6tiH84twfoiIBeO6P2m8GA0PakwI"}
+Completed 500 Internal Server Error in 4ms
+
+NameError (undefined local variable or method `google_doc' for #<StockController:0x007fa0136962d8>):
+  app/controllers/stock_controller.rb:34:in `set_google_drive_token'
+
+
+  Rendered /Users/haricarreras/.rvm/rubies/ruby-2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.0.12/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.6ms)
+  Rendered /Users/haricarreras/.rvm/rubies/ruby-2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.0.12/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+  Rendered /Users/haricarreras/.rvm/rubies/ruby-2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.0.12/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+  Rendered /Users/haricarreras/.rvm/rubies/ruby-2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.0.12/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (14.6ms)
+
+
+Started GET "/stock" for 127.0.0.1 at 2014-11-26 18:28:08 +0100
+Processing by StockController#index as HTML
+Redirected to https://accounts.google.com/o/oauth2/auth?access_type=offline&client_id=577293815693-9gqt0bfp5ei3la98uck623pgjjejk25h.apps.googleusercontent.com&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Foauth2callback&response_type=code&scope=https%3A%2F%2Fdocs.google.com%2Ffeeds%2F+https%3A%2F%2Fdocs.googleusercontent.com%2F+https%3A%2F%2Fspreadsheets.google.com%2Ffeeds%2F
+Filter chain halted as :google_drive_login rendered or redirected
+Completed 302 Found in 2ms
+
+
+Started GET "/oauth2callback?code=4/6qO_T5js15VZrWG9tHgUvN3HD-KmU0N9p48j-gzMbSc.stvq2MdxpxcSoiIBeO6P2m8ub07akwI" for 127.0.0.1 at 2014-11-26 18:28:10 +0100
+Processing by StockController#set_google_drive_token as HTML
+  Parameters: {"code"=>"4/6qO_T5js15VZrWG9tHgUvN3HD-KmU0N9p48j-gzMbSc.stvq2MdxpxcSoiIBeO6P2m8ub07akwI"}
+Completed 500 Internal Server Error in 306ms
+
+NameError (undefined local variable or method `stock_controller_path' for #<StockController:0x007fa013187120>):
+  app/controllers/stock_controller.rb:38:in `set_google_drive_token'
+
+
+  Rendered /Users/haricarreras/.rvm/rubies/ruby-2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.0.12/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.6ms)
+  Rendered /Users/haricarreras/.rvm/rubies/ruby-2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.0.12/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered /Users/haricarreras/.rvm/rubies/ruby-2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.0.12/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+  Rendered /Users/haricarreras/.rvm/rubies/ruby-2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.0.12/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (13.6ms)
+
+
+Started GET "/routes" for 127.0.0.1 at 2014-11-26 18:28:22 +0100
+
+ActionController::RoutingError (No route matches [GET] "/routes"):
+  actionpack (4.0.12) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.12) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.12) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.12) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.12) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.0.12) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.0.12) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.0.12) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.12) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.12) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.12) lib/action_dispatch/middleware/static.rb:84:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.12) lib/rails/engine.rb:511:in `call'
+  railties (4.0.12) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/haricarreras/.rvm/rubies/ruby-2.1.3/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/haricarreras/.rvm/rubies/ruby-2.1.3/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/haricarreras/.rvm/rubies/ruby-2.1.3/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/haricarreras/.rvm/rubies/ruby-2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.0.12/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+  Rendered /Users/haricarreras/.rvm/rubies/ruby-2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.0.12/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.3ms)
+  Rendered /Users/haricarreras/.rvm/rubies/ruby-2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.0.12/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.1ms)
+  Rendered /Users/haricarreras/.rvm/rubies/ruby-2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.0.12/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (20.8ms)
+
+
+Started GET "/routes" for 127.0.0.1 at 2014-11-26 18:28:34 +0100
+
+ActionController::RoutingError (No route matches [GET] "/routes"):
+  actionpack (4.0.12) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.12) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.12) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.12) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.12) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.0.12) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.0.12) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.0.12) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.12) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.12) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.12) lib/action_dispatch/middleware/static.rb:84:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.12) lib/rails/engine.rb:511:in `call'
+  railties (4.0.12) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/haricarreras/.rvm/rubies/ruby-2.1.3/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/haricarreras/.rvm/rubies/ruby-2.1.3/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/haricarreras/.rvm/rubies/ruby-2.1.3/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/haricarreras/.rvm/rubies/ruby-2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.0.12/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.8ms)
+  Rendered /Users/haricarreras/.rvm/rubies/ruby-2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.0.12/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.9ms)
+  Rendered /Users/haricarreras/.rvm/rubies/ruby-2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.0.12/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.9ms)
+  Rendered /Users/haricarreras/.rvm/rubies/ruby-2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.0.12/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (17.1ms)
+
+
+Started GET "/stock" for 127.0.0.1 at 2014-11-26 18:28:38 +0100
+Processing by StockController#index as HTML
+Redirected to https://accounts.google.com/o/oauth2/auth?access_type=offline&client_id=577293815693-9gqt0bfp5ei3la98uck623pgjjejk25h.apps.googleusercontent.com&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Foauth2callback&response_type=code&scope=https%3A%2F%2Fdocs.google.com%2Ffeeds%2F+https%3A%2F%2Fdocs.googleusercontent.com%2F+https%3A%2F%2Fspreadsheets.google.com%2Ffeeds%2F
+Filter chain halted as :google_drive_login rendered or redirected
+Completed 302 Found in 3ms
+
+
+Started GET "/oauth2callback?code=4/5huIrubmULGv3XHgtJvSnRgY7-dHtI63jtif8gMMGVA.kuc5OzaDAyEcoiIBeO6P2m82Vk_akwI" for 127.0.0.1 at 2014-11-26 18:28:40 +0100
+Processing by StockController#set_google_drive_token as HTML
+  Parameters: {"code"=>"4/5huIrubmULGv3XHgtJvSnRgY7-dHtI63jtif8gMMGVA.kuc5OzaDAyEcoiIBeO6P2m82Vk_akwI"}
+Completed 500 Internal Server Error in 332ms
+
+ActionController::UrlGenerationError (No route matches {:action=>"show", :controller=>"stock"} missing required keys: [:id]):
+  app/controllers/stock_controller.rb:38:in `set_google_drive_token'
+
+
+  Rendered /Users/haricarreras/.rvm/rubies/ruby-2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.0.12/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.5ms)
+  Rendered /Users/haricarreras/.rvm/rubies/ruby-2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.0.12/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+  Rendered /Users/haricarreras/.rvm/rubies/ruby-2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.0.12/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.3ms)
+  Rendered /Users/haricarreras/.rvm/rubies/ruby-2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.0.12/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (13.0ms)
+
+
+Started GET "/routes" for 127.0.0.1 at 2014-11-26 18:28:50 +0100
+
+ActionController::RoutingError (No route matches [GET] "/routes"):
+  actionpack (4.0.12) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.12) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.12) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.12) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.12) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.0.12) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.0.12) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.0.12) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.12) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.12) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.12) lib/action_dispatch/middleware/static.rb:84:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.12) lib/rails/engine.rb:511:in `call'
+  railties (4.0.12) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/haricarreras/.rvm/rubies/ruby-2.1.3/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/haricarreras/.rvm/rubies/ruby-2.1.3/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/haricarreras/.rvm/rubies/ruby-2.1.3/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/haricarreras/.rvm/rubies/ruby-2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.0.12/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+  Rendered /Users/haricarreras/.rvm/rubies/ruby-2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.0.12/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.4ms)
+  Rendered /Users/haricarreras/.rvm/rubies/ruby-2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.0.12/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.9ms)
+  Rendered /Users/haricarreras/.rvm/rubies/ruby-2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.0.12/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (18.8ms)
+
+
+Started GET "/stock" for 127.0.0.1 at 2014-11-26 18:29:04 +0100
+Processing by StockController#index as HTML
+Redirected to https://accounts.google.com/o/oauth2/auth?access_type=offline&client_id=577293815693-9gqt0bfp5ei3la98uck623pgjjejk25h.apps.googleusercontent.com&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Foauth2callback&response_type=code&scope=https%3A%2F%2Fdocs.google.com%2Ffeeds%2F+https%3A%2F%2Fdocs.googleusercontent.com%2F+https%3A%2F%2Fspreadsheets.google.com%2Ffeeds%2F
+Filter chain halted as :google_drive_login rendered or redirected
+Completed 302 Found in 1ms
+
+
+Started GET "/oauth2callback?code=4/LCa-K2xleYMsNyPuvVOqra4zqhpg0KwdTUNVTcDUFPA.0ujm0tyBYXIZoiIBeO6P2m9WJVDakwI" for 127.0.0.1 at 2014-11-26 18:29:06 +0100
+Processing by StockController#set_google_drive_token as HTML
+  Parameters: {"code"=>"4/LCa-K2xleYMsNyPuvVOqra4zqhpg0KwdTUNVTcDUFPA.0ujm0tyBYXIZoiIBeO6P2m9WJVDakwI"}
+Redirected to http://localhost:3000/stock
+Completed 302 Found in 228ms
+
+
+Started GET "/stock" for 127.0.0.1 at 2014-11-26 18:29:07 +0100
+Processing by StockController#index as HTML
+  Rendered stock/index.html.erb within layouts/application (1.6ms)
+Completed 500 Internal Server Error in 1795ms
+
+ActionView::Template::Error (undefined method `row' for #<GoogleDrive::Worksheet:0x007fa0134e5268>):
+    1: <h1>Stock</h1>
+    2: <p><%= @sheet.row[1,1] %></p>
+  app/views/stock/index.html.erb:2:in `_app_views_stock_index_html_erb___657605298926978633_70162748154880'
+
+
+  Rendered /Users/haricarreras/.rvm/rubies/ruby-2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.0.12/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+  Rendered /Users/haricarreras/.rvm/rubies/ruby-2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.0.12/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+  Rendered /Users/haricarreras/.rvm/rubies/ruby-2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.0.12/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (9.7ms)
+
+
+Started GET "/stock" for 127.0.0.1 at 2014-11-26 18:30:50 +0100
+Processing by StockController#index as HTML
+  Rendered stock/index.html.erb within layouts/application (3478.6ms)
+Completed 200 OK in 3989ms (Views: 3514.7ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-26 18:30:54 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-26 18:30:54 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-26 18:30:54 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-26 18:30:54 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-26 18:30:54 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-26 18:31:00 +0100
+
+
+Started GET "/stock" for 127.0.0.1 at 2014-11-26 18:31:54 +0100
+Processing by StockController#index as HTML
+  Rendered stock/index.html.erb within layouts/application (3137.3ms)
+Completed 200 OK in 3533ms (Views: 3139.8ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-26 18:31:58 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-26 18:31:58 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-26 18:31:58 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-26 18:31:58 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-26 18:31:58 +0100
+
+
+Started GET "/stock" for 127.0.0.1 at 2014-11-26 18:38:13 +0100
+Processing by StockController#index as HTML
+  Rendered stock/index.html.erb within layouts/application (3554.8ms)
+Completed 500 Internal Server Error in 4083ms
+
+ActionView::Template::Error (undefined method `row' for #<GoogleDrive::Worksheet:0x007fa015977a40>):
+    1: <h1>Stock</h1>
+    2: <% @sheet.rows.each do |row| %>
+    3:   <p>
+    4:     <% @sheet.row.each do |element| %>
+    5:       <%= element %>
+    6:     <% end %>
+    7:   </p>
+  app/views/stock/index.html.erb:4:in `block in _app_views_stock_index_html_erb___657605298926978633_70162770096220'
+  app/views/stock/index.html.erb:2:in `each'
+  app/views/stock/index.html.erb:2:in `_app_views_stock_index_html_erb___657605298926978633_70162770096220'
+
+
+  Rendered /Users/haricarreras/.rvm/rubies/ruby-2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.0.12/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.8ms)
+  Rendered /Users/haricarreras/.rvm/rubies/ruby-2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.0.12/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.6ms)
+  Rendered /Users/haricarreras/.rvm/rubies/ruby-2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.0.12/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (8.0ms)
+
+
+Started GET "/stock" for 127.0.0.1 at 2014-11-26 18:38:49 +0100
+Processing by StockController#index as HTML
+  Rendered stock/index.html.erb within layouts/application (3325.0ms)
+Completed 200 OK in 3950ms (Views: 3327.8ms)
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-26 18:38:53 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-26 18:38:53 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-26 18:38:53 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-26 18:38:53 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-26 18:38:53 +0100
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-26 18:43:50 +0100
+Processing by StaticPagesController#index as HTML
+  Rendered static_pages/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 5ms (Views: 4.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-26 18:43:50 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-26 18:43:50 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-26 18:43:50 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-26 18:43:50 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-26 18:43:50 +0100
+
+
+Started GET "/stock" for 127.0.0.1 at 2014-11-26 18:44:09 +0100
+Processing by StockController#index as HTML
+  Rendered stock/index.html.erb within layouts/application (3575.4ms)
+Completed 200 OK in 4567ms (Views: 3582.0ms)
+
+
+Started GET "/stock" for 127.0.0.1 at 2014-11-26 18:44:14 +0100
+Processing by StockController#index as HTML
+  Rendered stock/index.html.erb within layouts/application (3103.0ms)
+Completed 200 OK in 3698ms (Views: 3105.6ms)
+
+
+Started GET "/stock" for 127.0.0.1 at 2014-11-26 18:44:17 +0100
+Processing by StockController#index as HTML
+  Rendered stock/index.html.erb within layouts/application (3460.4ms)
+Completed 200 OK in 3908ms (Views: 3463.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-26 18:44:35 +0100
+Processing by StaticPagesController#index as HTML
+  Rendered static_pages/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 5ms (Views: 4.1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-26 18:44:35 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-26 18:44:35 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-26 18:44:35 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-26 18:44:35 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-26 18:44:35 +0100
+
+
+Started GET "/stock" for 127.0.0.1 at 2014-11-26 18:44:37 +0100
+Processing by StockController#index as HTML
+  Rendered stock/index.html.erb within layouts/application (3236.9ms)
+Completed 200 OK in 4565ms (Views: 3240.1ms)
+
+
+Started GET "/stock" for 127.0.0.1 at 2014-11-26 18:45:15 +0100
+Processing by StockController#index as HTML
+  Rendered stock/index.html.erb within layouts/application (3057.3ms)
+Completed 200 OK in 3615ms (Views: 3060.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-26 18:45:18 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-26 18:45:18 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-26 18:45:18 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-26 18:45:18 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-26 18:45:18 +0100
+
+
+Started GET "/stock" for 127.0.0.1 at 2014-11-26 19:34:55 +0100
+Processing by StockController#index as HTML
+Completed 500 Internal Server Error in 523ms
+
+GoogleDrive::AuthenticationError (Response code 401 for get https://spreadsheets.google.com/feeds/worksheets/0AgWDbm7D_t2RdGFfdldFX3Z1aFllRG83bjZTYzU5VkE/private/full: <HTML>
+<HEAD>
+<TITLE>Token invalid - Invalid token: Token not found</TITLE>
+</HEAD>
+<BODY BGCOLOR="#FFFFFF" TEXT="#000000">
+<H1>Token invalid - Invalid token: Token not found</H1>
+<H2>Error 401</H2>
+</BODY>
+</HTML>
+):
+  app/controllers/stock_controller.rb:11:in `index'
+
+
+  Rendered /Users/haricarreras/.rvm/rubies/ruby-2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.0.12/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.6ms)
+  Rendered /Users/haricarreras/.rvm/rubies/ruby-2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.0.12/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+  Rendered /Users/haricarreras/.rvm/rubies/ruby-2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.0.12/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.4ms)
+  Rendered /Users/haricarreras/.rvm/rubies/ruby-2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.0.12/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (16.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-26 19:35:05 +0100
+Processing by StaticPagesController#index as HTML
+  Rendered static_pages/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 20ms (Views: 19.3ms)
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-26 19:35:05 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-26 19:35:05 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-26 19:35:05 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-26 19:35:05 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-26 19:35:05 +0100
+
+
+Started GET "/stock" for 127.0.0.1 at 2014-11-26 19:35:06 +0100
+Processing by StockController#index as HTML
+Completed 500 Internal Server Error in 603ms
+
+GoogleDrive::AuthenticationError (Response code 401 for get https://spreadsheets.google.com/feeds/worksheets/0AgWDbm7D_t2RdGFfdldFX3Z1aFllRG83bjZTYzU5VkE/private/full: <HTML>
+<HEAD>
+<TITLE>Token invalid - Invalid token: Token not found</TITLE>
+</HEAD>
+<BODY BGCOLOR="#FFFFFF" TEXT="#000000">
+<H1>Token invalid - Invalid token: Token not found</H1>
+<H2>Error 401</H2>
+</BODY>
+</HTML>
+):
+  app/controllers/stock_controller.rb:11:in `index'
+
+
+  Rendered /Users/haricarreras/.rvm/rubies/ruby-2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.0.12/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.5ms)
+  Rendered /Users/haricarreras/.rvm/rubies/ruby-2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.0.12/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+  Rendered /Users/haricarreras/.rvm/rubies/ruby-2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.0.12/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+  Rendered /Users/haricarreras/.rvm/rubies/ruby-2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.0.12/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (12.4ms)
+
+
+Started GET "/stock" for 127.0.0.1 at 2014-11-26 19:35:07 +0100
+Processing by StockController#index as HTML
+Completed 500 Internal Server Error in 348ms
+
+GoogleDrive::AuthenticationError (Response code 401 for get https://spreadsheets.google.com/feeds/worksheets/0AgWDbm7D_t2RdGFfdldFX3Z1aFllRG83bjZTYzU5VkE/private/full: <HTML>
+<HEAD>
+<TITLE>Token invalid - Invalid token: Token not found</TITLE>
+</HEAD>
+<BODY BGCOLOR="#FFFFFF" TEXT="#000000">
+<H1>Token invalid - Invalid token: Token not found</H1>
+<H2>Error 401</H2>
+</BODY>
+</HTML>
+):
+  app/controllers/stock_controller.rb:11:in `index'
+
+
+  Rendered /Users/haricarreras/.rvm/rubies/ruby-2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.0.12/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.5ms)
+  Rendered /Users/haricarreras/.rvm/rubies/ruby-2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.0.12/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.8ms)
+  Rendered /Users/haricarreras/.rvm/rubies/ruby-2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.0.12/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+  Rendered /Users/haricarreras/.rvm/rubies/ruby-2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.0.12/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (11.6ms)
+
+
+Started GET "/stock" for 127.0.0.1 at 2014-11-26 19:35:29 +0100
+Processing by StockController#index as HTML
+Completed 500 Internal Server Error in 435ms
+
+GoogleDrive::AuthenticationError (Response code 401 for get https://spreadsheets.google.com/feeds/worksheets/0AgWDbm7D_t2RdGFfdldFX3Z1aFllRG83bjZTYzU5VkE/private/full: <HTML>
+<HEAD>
+<TITLE>Token invalid - Invalid token: Token not found</TITLE>
+</HEAD>
+<BODY BGCOLOR="#FFFFFF" TEXT="#000000">
+<H1>Token invalid - Invalid token: Token not found</H1>
+<H2>Error 401</H2>
+</BODY>
+</HTML>
+):
+  app/controllers/stock_controller.rb:11:in `index'
+
+
+  Rendered /Users/haricarreras/.rvm/rubies/ruby-2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.0.12/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.5ms)
+  Rendered /Users/haricarreras/.rvm/rubies/ruby-2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.0.12/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+  Rendered /Users/haricarreras/.rvm/rubies/ruby-2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.0.12/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+  Rendered /Users/haricarreras/.rvm/rubies/ruby-2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.0.12/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (11.6ms)
+
+
+Started GET "/stock" for 127.0.0.1 at 2014-11-26 19:35:30 +0100
+Processing by StockController#index as HTML
+Completed 500 Internal Server Error in 449ms
+
+GoogleDrive::AuthenticationError (Response code 401 for get https://spreadsheets.google.com/feeds/worksheets/0AgWDbm7D_t2RdGFfdldFX3Z1aFllRG83bjZTYzU5VkE/private/full: <HTML>
+<HEAD>
+<TITLE>Token invalid - Invalid token: Token not found</TITLE>
+</HEAD>
+<BODY BGCOLOR="#FFFFFF" TEXT="#000000">
+<H1>Token invalid - Invalid token: Token not found</H1>
+<H2>Error 401</H2>
+</BODY>
+</HTML>
+):
+  app/controllers/stock_controller.rb:11:in `index'
+
+
+  Rendered /Users/haricarreras/.rvm/rubies/ruby-2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.0.12/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.5ms)
+  Rendered /Users/haricarreras/.rvm/rubies/ruby-2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.0.12/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+  Rendered /Users/haricarreras/.rvm/rubies/ruby-2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.0.12/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+  Rendered /Users/haricarreras/.rvm/rubies/ruby-2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.0.12/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (11.8ms)
+
+
+Started GET "/stock" for 127.0.0.1 at 2014-11-26 19:38:47 +0100
+Processing by StockController#index as HTML
+Completed 500 Internal Server Error in 757ms
+
+GoogleDrive::AuthenticationError (Response code 401 for get https://spreadsheets.google.com/feeds/worksheets/0AgWDbm7D_t2RdGFfdldFX3Z1aFllRG83bjZTYzU5VkE/private/full: <HTML>
+<HEAD>
+<TITLE>Token invalid - Invalid token: Token not found</TITLE>
+</HEAD>
+<BODY BGCOLOR="#FFFFFF" TEXT="#000000">
+<H1>Token invalid - Invalid token: Token not found</H1>
+<H2>Error 401</H2>
+</BODY>
+</HTML>
+):
+  app/controllers/stock_controller.rb:11:in `index'
+
+
+  Rendered /Users/haricarreras/.rvm/rubies/ruby-2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.0.12/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.5ms)
+  Rendered /Users/haricarreras/.rvm/rubies/ruby-2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.0.12/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.8ms)
+  Rendered /Users/haricarreras/.rvm/rubies/ruby-2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.0.12/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+  Rendered /Users/haricarreras/.rvm/rubies/ruby-2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.0.12/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (11.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-26 19:39:10 +0100
+Processing by StaticPagesController#index as HTML
+  Rendered static_pages/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 31ms (Views: 23.1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-26 19:39:10 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-26 19:39:10 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-26 19:39:10 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-26 19:39:10 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-26 19:39:10 +0100
+
+
+Started GET "/stock" for 127.0.0.1 at 2014-11-26 19:39:13 +0100
+Processing by StockController#index as HTML
+Completed 500 Internal Server Error in 430ms
+
+GoogleDrive::AuthenticationError (Response code 401 for get https://spreadsheets.google.com/feeds/worksheets/0AgWDbm7D_t2RdGFfdldFX3Z1aFllRG83bjZTYzU5VkE/private/full: <HTML>
+<HEAD>
+<TITLE>Token invalid - Invalid token: Token not found</TITLE>
+</HEAD>
+<BODY BGCOLOR="#FFFFFF" TEXT="#000000">
+<H1>Token invalid - Invalid token: Token not found</H1>
+<H2>Error 401</H2>
+</BODY>
+</HTML>
+):
+  app/controllers/stock_controller.rb:11:in `index'
+
+
+  Rendered /Users/haricarreras/.rvm/rubies/ruby-2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.0.12/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.5ms)
+  Rendered /Users/haricarreras/.rvm/rubies/ruby-2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.0.12/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+  Rendered /Users/haricarreras/.rvm/rubies/ruby-2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.0.12/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+  Rendered /Users/haricarreras/.rvm/rubies/ruby-2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.0.12/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (12.1ms)
+
+
+Started GET "/stock" for 127.0.0.1 at 2014-11-26 19:39:13 +0100
+Processing by StockController#index as HTML
+Completed 500 Internal Server Error in 509ms
+
+GoogleDrive::AuthenticationError (Response code 401 for get https://spreadsheets.google.com/feeds/worksheets/0AgWDbm7D_t2RdGFfdldFX3Z1aFllRG83bjZTYzU5VkE/private/full: <HTML>
+<HEAD>
+<TITLE>Token invalid - Invalid token: Token not found</TITLE>
+</HEAD>
+<BODY BGCOLOR="#FFFFFF" TEXT="#000000">
+<H1>Token invalid - Invalid token: Token not found</H1>
+<H2>Error 401</H2>
+</BODY>
+</HTML>
+):
+  app/controllers/stock_controller.rb:11:in `index'
+
+
+  Rendered /Users/haricarreras/.rvm/rubies/ruby-2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.0.12/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.6ms)
+  Rendered /Users/haricarreras/.rvm/rubies/ruby-2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.0.12/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered /Users/haricarreras/.rvm/rubies/ruby-2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.0.12/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+  Rendered /Users/haricarreras/.rvm/rubies/ruby-2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.0.12/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (13.8ms)
+
+
+Started GET "/stock" for 127.0.0.1 at 2014-11-26 19:41:15 +0100
+Processing by StockController#index as HTML
+Completed 500 Internal Server Error in 826ms
+
+GoogleDrive::AuthenticationError (Response code 401 for get https://spreadsheets.google.com/feeds/worksheets/0AgWDbm7D_t2RdGFfdldFX3Z1aFllRG83bjZTYzU5VkE/private/full: <HTML>
+<HEAD>
+<TITLE>Token invalid - Invalid token: Token not found</TITLE>
+</HEAD>
+<BODY BGCOLOR="#FFFFFF" TEXT="#000000">
+<H1>Token invalid - Invalid token: Token not found</H1>
+<H2>Error 401</H2>
+</BODY>
+</HTML>
+):
+  app/controllers/stock_controller.rb:11:in `index'
+
+
+  Rendered /Users/haricarreras/.rvm/rubies/ruby-2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.0.12/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.0ms)
+  Rendered /Users/haricarreras/.rvm/rubies/ruby-2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.0.12/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+  Rendered /Users/haricarreras/.rvm/rubies/ruby-2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.0.12/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.4ms)
+  Rendered /Users/haricarreras/.rvm/rubies/ruby-2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.0.12/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (19.8ms)
+
+
+Started GET "/stock" for 127.0.0.1 at 2014-11-26 19:41:17 +0100
+Processing by StockController#index as HTML
+Completed 500 Internal Server Error in 382ms
+
+GoogleDrive::AuthenticationError (Response code 401 for get https://spreadsheets.google.com/feeds/worksheets/0AgWDbm7D_t2RdGFfdldFX3Z1aFllRG83bjZTYzU5VkE/private/full: <HTML>
+<HEAD>
+<TITLE>Token invalid - Invalid token: Token not found</TITLE>
+</HEAD>
+<BODY BGCOLOR="#FFFFFF" TEXT="#000000">
+<H1>Token invalid - Invalid token: Token not found</H1>
+<H2>Error 401</H2>
+</BODY>
+</HTML>
+):
+  app/controllers/stock_controller.rb:11:in `index'
+
+
+  Rendered /Users/haricarreras/.rvm/rubies/ruby-2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.0.12/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.5ms)
+  Rendered /Users/haricarreras/.rvm/rubies/ruby-2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.0.12/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+  Rendered /Users/haricarreras/.rvm/rubies/ruby-2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.0.12/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+  Rendered /Users/haricarreras/.rvm/rubies/ruby-2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.0.12/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (11.7ms)
+
+
+Started GET "/stock" for 127.0.0.1 at 2014-11-26 19:41:24 +0100
+Processing by StockController#index as HTML
+Completed 500 Internal Server Error in 354ms
+
+GoogleDrive::AuthenticationError (Response code 401 for get https://spreadsheets.google.com/feeds/worksheets/0AgWDbm7D_t2RdGFfdldFX3Z1aFllRG83bjZTYzU5VkE/private/full: <HTML>
+<HEAD>
+<TITLE>Token invalid - Invalid token: Token not found</TITLE>
+</HEAD>
+<BODY BGCOLOR="#FFFFFF" TEXT="#000000">
+<H1>Token invalid - Invalid token: Token not found</H1>
+<H2>Error 401</H2>
+</BODY>
+</HTML>
+):
+  app/controllers/stock_controller.rb:11:in `index'
+
+
+  Rendered /Users/haricarreras/.rvm/rubies/ruby-2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.0.12/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.5ms)
+  Rendered /Users/haricarreras/.rvm/rubies/ruby-2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.0.12/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.8ms)
+  Rendered /Users/haricarreras/.rvm/rubies/ruby-2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.0.12/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+  Rendered /Users/haricarreras/.rvm/rubies/ruby-2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.0.12/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (11.6ms)
+
+
+Started GET "/stock" for 127.0.0.1 at 2014-11-26 19:42:51 +0100
+Processing by StockController#index as HTML
+Completed 500 Internal Server Error in 469ms
+
+GoogleDrive::AuthenticationError (Response code 401 for get https://spreadsheets.google.com/feeds/worksheets/0AgWDbm7D_t2RdGFfdldFX3Z1aFllRG83bjZTYzU5VkE/private/full: <HTML>
+<HEAD>
+<TITLE>Token invalid - Invalid token: Token not found</TITLE>
+</HEAD>
+<BODY BGCOLOR="#FFFFFF" TEXT="#000000">
+<H1>Token invalid - Invalid token: Token not found</H1>
+<H2>Error 401</H2>
+</BODY>
+</HTML>
+):
+  app/controllers/stock_controller.rb:11:in `index'
+
+
+  Rendered /Users/haricarreras/.rvm/rubies/ruby-2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.0.12/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.5ms)
+  Rendered /Users/haricarreras/.rvm/rubies/ruby-2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.0.12/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+  Rendered /Users/haricarreras/.rvm/rubies/ruby-2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.0.12/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+  Rendered /Users/haricarreras/.rvm/rubies/ruby-2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.0.12/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (11.5ms)
+
+
+Started GET "/stock" for 127.0.0.1 at 2014-11-26 19:43:14 +0100
+Processing by StockController#index as HTML
+Completed 500 Internal Server Error in 454ms
+
+GoogleDrive::AuthenticationError (Response code 401 for get https://spreadsheets.google.com/feeds/worksheets/0AgWDbm7D_t2RdGFfdldFX3Z1aFllRG83bjZTYzU5VkE/private/full: <HTML>
+<HEAD>
+<TITLE>Token invalid - Invalid token: Token not found</TITLE>
+</HEAD>
+<BODY BGCOLOR="#FFFFFF" TEXT="#000000">
+<H1>Token invalid - Invalid token: Token not found</H1>
+<H2>Error 401</H2>
+</BODY>
+</HTML>
+):
+  app/controllers/stock_controller.rb:11:in `index'
+
+
+  Rendered /Users/haricarreras/.rvm/rubies/ruby-2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.0.12/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.5ms)
+  Rendered /Users/haricarreras/.rvm/rubies/ruby-2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.0.12/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.8ms)
+  Rendered /Users/haricarreras/.rvm/rubies/ruby-2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.0.12/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+  Rendered /Users/haricarreras/.rvm/rubies/ruby-2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.0.12/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (11.4ms)
+
+
+Started GET "/stock" for 127.0.0.1 at 2014-11-26 19:44:19 +0100
+Processing by StockController#index as HTML
+Completed 500 Internal Server Error in 974ms
+
+GoogleDrive::AuthenticationError (Response code 401 for get https://spreadsheets.google.com/feeds/worksheets/0AgWDbm7D_t2RdGFfdldFX3Z1aFllRG83bjZTYzU5VkE/private/full: <HTML>
+<HEAD>
+<TITLE>Token invalid - Invalid token: Token not found</TITLE>
+</HEAD>
+<BODY BGCOLOR="#FFFFFF" TEXT="#000000">
+<H1>Token invalid - Invalid token: Token not found</H1>
+<H2>Error 401</H2>
+</BODY>
+</HTML>
+):
+  app/controllers/stock_controller.rb:11:in `index'
+
+
+  Rendered /Users/haricarreras/.rvm/rubies/ruby-2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.0.12/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.7ms)
+  Rendered /Users/haricarreras/.rvm/rubies/ruby-2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.0.12/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+  Rendered /Users/haricarreras/.rvm/rubies/ruby-2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.0.12/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+  Rendered /Users/haricarreras/.rvm/rubies/ruby-2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.0.12/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (15.2ms)
+
+
+Started GET "/stock" for 127.0.0.1 at 2014-11-26 19:45:29 +0100
+Processing by StockController#index as HTML
+Redirected to https://accounts.google.com/o/oauth2/auth?access_type=offline&client_id=577293815693-9gqt0bfp5ei3la98uck623pgjjejk25h.apps.googleusercontent.com&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Foauth2callback&response_type=code&scope=https%3A%2F%2Fdocs.google.com%2Ffeeds%2F+https%3A%2F%2Fdocs.googleusercontent.com%2F+https%3A%2F%2Fspreadsheets.google.com%2Ffeeds%2F
+Filter chain halted as :google_drive_login rendered or redirected
+Completed 302 Found in 3ms
+
+
+Started GET "/oauth2callback?code=4/vNx_wpoZpokZy-YwVaYDXaaiM54Jfld_T0PQChggrZg.Qi7LMtZfDkcWoiIBeO6P2m8mD9zakwI" for 127.0.0.1 at 2014-11-26 19:45:31 +0100
+Processing by StockController#set_google_drive_token as HTML
+  Parameters: {"code"=>"4/vNx_wpoZpokZy-YwVaYDXaaiM54Jfld_T0PQChggrZg.Qi7LMtZfDkcWoiIBeO6P2m8mD9zakwI"}
+Redirected to http://localhost:3000/stock
+Completed 302 Found in 209ms
+
+
+Started GET "/stock" for 127.0.0.1 at 2014-11-26 19:45:31 +0100
+Processing by StockController#index as HTML
+Redirected to https://accounts.google.com/o/oauth2/auth?access_type=offline&client_id=577293815693-9gqt0bfp5ei3la98uck623pgjjejk25h.apps.googleusercontent.com&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Foauth2callback&response_type=code&scope=https%3A%2F%2Fdocs.google.com%2Ffeeds%2F+https%3A%2F%2Fdocs.googleusercontent.com%2F+https%3A%2F%2Fspreadsheets.google.com%2Ffeeds%2F
+Filter chain halted as :google_drive_login rendered or redirected
+Completed 302 Found in 1ms
+
+
+Started GET "/oauth2callback?code=4/-1YLGisYNekZEw8IBG7nMLNDaDRlUGKenlnBfck3L3o.4mC5rtTRmDoboiIBeO6P2m-gJNzakwI" for 127.0.0.1 at 2014-11-26 19:45:34 +0100
+Processing by StockController#set_google_drive_token as HTML
+  Parameters: {"code"=>"4/-1YLGisYNekZEw8IBG7nMLNDaDRlUGKenlnBfck3L3o.4mC5rtTRmDoboiIBeO6P2m-gJNzakwI"}
+Redirected to http://localhost:3000/stock
+Completed 302 Found in 235ms
+
+
+Started GET "/stock" for 127.0.0.1 at 2014-11-26 19:45:34 +0100
+Processing by StockController#index as HTML
+Redirected to https://accounts.google.com/o/oauth2/auth?access_type=offline&client_id=577293815693-9gqt0bfp5ei3la98uck623pgjjejk25h.apps.googleusercontent.com&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Foauth2callback&response_type=code&scope=https%3A%2F%2Fdocs.google.com%2Ffeeds%2F+https%3A%2F%2Fdocs.googleusercontent.com%2F+https%3A%2F%2Fspreadsheets.google.com%2Ffeeds%2F
+Filter chain halted as :google_drive_login rendered or redirected
+Completed 302 Found in 1ms
+
+
+Started GET "/oauth2callback?code=4/seIUu-V6DUB34tRIMsFYOLNDaDRlUGKenlnBfck3L3o.Qj68mAgDgN4eoiIBeO6P2m_usNzakwI" for 127.0.0.1 at 2014-11-26 19:45:52 +0100
+Processing by StockController#set_google_drive_token as HTML
+  Parameters: {"code"=>"4/seIUu-V6DUB34tRIMsFYOLNDaDRlUGKenlnBfck3L3o.Qj68mAgDgN4eoiIBeO6P2m_usNzakwI"}
+Redirected to http://localhost:3000/stock
+Completed 302 Found in 218ms
+
+
+Started GET "/stock" for 127.0.0.1 at 2014-11-26 19:45:52 +0100
+Processing by StockController#index as HTML
+  Rendered stock/index.html.erb within layouts/application (3764.9ms)
+Completed 200 OK in 4196ms (Views: 3768.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-26 19:45:56 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-26 19:45:56 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-26 19:45:56 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-26 19:45:56 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-26 19:45:56 +0100

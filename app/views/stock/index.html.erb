@@ -1,0 +1,8 @@
+<h1>Stock</h1>
+<% @sheet.rows.each do |row| %>
+  <p>
+    <% row.each do |element| %>
+      <%= element %>
+    <% end %>
+  </p>
+<% end %>
