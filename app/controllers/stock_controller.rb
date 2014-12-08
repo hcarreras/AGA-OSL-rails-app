@@ -9,6 +9,11 @@ class StockController < ApplicationController
   def index
     google_session = GoogleDrive.login_with_oauth(session[:google_token])
     @sheet = google_session.spreadsheet_by_key("0AgWDbm7D_t2RdGFfdldFX3Z1aFllRG83bjZTYzU5VkE").worksheets[0]
+
+    respond_to do |format|
+      format.html
+      format.json
+    end
   end
 
   def list_google_docs
