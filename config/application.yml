@@ -1,6 +1,7 @@
-google_client_id: "203558282158-s92u2dh0j88va8jguli2m8d1hioor9e8.apps.googleusercontent.com"
-google_client_secret: "UtPgmt6tCRoqymyuR9uZxCZh"
-google_client_redirect_uri: "http://localhost:3000/oauth2callback"
+development:
+  google_client_id: "203558282158-s92u2dh0j88va8jguli2m8d1hioor9e8.apps.googleusercontent.com"
+  google_client_secret: "UtPgmt6tCRoqymyuR9uZxCZh"
+  google_client_redirect_uri: "http://localhost:3000/oauth2callback"
 
 production:
   google_client_id: "577293815693-9gqt0bfp5ei3la98uck623pgjjejk25h.apps.googleusercontent.com"

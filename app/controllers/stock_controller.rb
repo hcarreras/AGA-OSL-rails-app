@@ -30,6 +30,13 @@ class StockController < ApplicationController
   end
 
   def set_google_drive_token
+    puts "----------------------------"
+    puts "----------------------------"
+    puts "----------------------------"
+    puts "ENV['google_client_id'] #{ENV['google_client_id']}"
+    puts "ENV['google_client_secret'] #{ENV['google_client_secret']}"
+    puts "ENV['google_client_redirect_uri'] #{ENV['google_client_redirect_uri']}"
+
     google_doc = GoogleDrive::GoogleDocs.new(ENV['google_client_id'], ENV['google_client_secret'],
                                              ENV['google_client_redirect_uri'])
     oauth_client = google_doc.create_google_client

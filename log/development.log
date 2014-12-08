@@ -2251,3 +2251,182 @@ Completed 200 OK in 562ms (Views: 0.5ms)
 Started GET "/stock.json" for 127.0.0.1 at 2014-12-08 13:09:39 +0100
 Processing by StockController#index as JSON
 Completed 200 OK in 3680ms (Views: 12.2ms)
+
+
+Started GET "/stock.json" for 127.0.0.1 at 2014-12-08 13:32:51 +0100
+Processing by StockController#index as JSON
+Completed 200 OK in 4053ms (Views: 9.4ms)
+
+
+Started GET "/stock" for 127.0.0.1 at 2014-12-08 13:33:01 +0100
+Processing by StockController#index as HTML
+  Rendered stock/index.html.erb within layouts/application (1781.5ms)
+Completed 200 OK in 3725ms (Views: 1802.8ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-12-08 13:33:04 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-12-08 13:33:04 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-12-08 13:33:04 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-12-08 13:33:04 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-12-08 13:33:04 +0100
+
+
+Started GET "/stock" for 127.0.0.1 at 2014-12-08 16:27:41 +0100
+Processing by StockController#index as HTML
+Completed 500 Internal Server Error in 1495ms
+
+GoogleDrive::AuthenticationError (Response code 401 for get https://spreadsheets.google.com/feeds/worksheets/0AgWDbm7D_t2RdGFfdldFX3Z1aFllRG83bjZTYzU5VkE/private/full: <HTML>
+<HEAD>
+<TITLE>Token invalid - Invalid token: Token not found</TITLE>
+</HEAD>
+<BODY BGCOLOR="#FFFFFF" TEXT="#000000">
+<H1>Token invalid - Invalid token: Token not found</H1>
+<H2>Error 401</H2>
+</BODY>
+</HTML>
+):
+  app/controllers/stock_controller.rb:7:in `index'
+
+
+  Rendered /Users/haricarreras/.rvm/rubies/ruby-2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.0.12/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.6ms)
+  Rendered /Users/haricarreras/.rvm/rubies/ruby-2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.0.12/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+  Rendered /Users/haricarreras/.rvm/rubies/ruby-2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.0.12/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+  Rendered /Users/haricarreras/.rvm/rubies/ruby-2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.0.12/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (13.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-12-08 16:28:51 +0100
+Processing by StaticPagesController#index as HTML
+  Rendered static_pages/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 5ms (Views: 4.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-12-08 16:28:51 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-12-08 16:28:51 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-12-08 16:28:51 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-12-08 16:28:51 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-12-08 16:28:51 +0100
+
+
+Started GET "/stock" for 127.0.0.1 at 2014-12-08 16:28:53 +0100
+Processing by StockController#index as HTML
+Completed 500 Internal Server Error in 638ms
+
+GoogleDrive::AuthenticationError (Response code 401 for get https://spreadsheets.google.com/feeds/worksheets/0AgWDbm7D_t2RdGFfdldFX3Z1aFllRG83bjZTYzU5VkE/private/full: <HTML>
+<HEAD>
+<TITLE>Token invalid - Invalid token: Token not found</TITLE>
+</HEAD>
+<BODY BGCOLOR="#FFFFFF" TEXT="#000000">
+<H1>Token invalid - Invalid token: Token not found</H1>
+<H2>Error 401</H2>
+</BODY>
+</HTML>
+):
+  app/controllers/stock_controller.rb:7:in `index'
+
+
+  Rendered /Users/haricarreras/.rvm/rubies/ruby-2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.0.12/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.6ms)
+  Rendered /Users/haricarreras/.rvm/rubies/ruby-2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.0.12/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered /Users/haricarreras/.rvm/rubies/ruby-2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.0.12/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+  Rendered /Users/haricarreras/.rvm/rubies/ruby-2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.0.12/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (11.9ms)
+
+
+Started GET "/stock" for 127.0.0.1 at 2014-12-08 16:28:54 +0100
+Processing by StockController#index as HTML
+Completed 500 Internal Server Error in 676ms
+
+GoogleDrive::AuthenticationError (Response code 401 for get https://spreadsheets.google.com/feeds/worksheets/0AgWDbm7D_t2RdGFfdldFX3Z1aFllRG83bjZTYzU5VkE/private/full: <HTML>
+<HEAD>
+<TITLE>Token invalid - Invalid token: Token not found</TITLE>
+</HEAD>
+<BODY BGCOLOR="#FFFFFF" TEXT="#000000">
+<H1>Token invalid - Invalid token: Token not found</H1>
+<H2>Error 401</H2>
+</BODY>
+</HTML>
+):
+  app/controllers/stock_controller.rb:7:in `index'
+
+
+  Rendered /Users/haricarreras/.rvm/rubies/ruby-2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.0.12/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.5ms)
+  Rendered /Users/haricarreras/.rvm/rubies/ruby-2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.0.12/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+  Rendered /Users/haricarreras/.rvm/rubies/ruby-2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.0.12/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+  Rendered /Users/haricarreras/.rvm/rubies/ruby-2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.0.12/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (11.8ms)
+
+
+Started GET "/stock" for 127.0.0.1 at 2014-12-08 16:29:15 +0100
+Processing by StockController#index as HTML
+Redirected to https://accounts.google.com/o/oauth2/auth?access_type=offline&client_id=203558282158-s92u2dh0j88va8jguli2m8d1hioor9e8.apps.googleusercontent.com&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Foauth2callback&response_type=code&scope=https%3A%2F%2Fdocs.google.com%2Ffeeds%2F+https%3A%2F%2Fdocs.googleusercontent.com%2F+https%3A%2F%2Fspreadsheets.google.com%2Ffeeds%2F
+Filter chain halted as :google_drive_login rendered or redirected
+Completed 302 Found in 5ms
+
+
+Started GET "/oauth2callback?code=4/yVGGMwgP0wXfsG4YJ0IbB0JWAw4_UDdFEnAasZU3E6E.MgdOwDnqhKMVoiIBeO6P2m82Xg1VlAI" for 127.0.0.1 at 2014-12-08 16:29:17 +0100
+Processing by StockController#set_google_drive_token as HTML
+  Parameters: {"code"=>"4/yVGGMwgP0wXfsG4YJ0IbB0JWAw4_UDdFEnAasZU3E6E.MgdOwDnqhKMVoiIBeO6P2m82Xg1VlAI"}
+Redirected to http://localhost:3000/stock
+Completed 302 Found in 322ms
+
+
+Started GET "/stock" for 127.0.0.1 at 2014-12-08 16:29:17 +0100
+Processing by StockController#index as HTML
+Redirected to https://accounts.google.com/o/oauth2/auth?access_type=offline&client_id=203558282158-s92u2dh0j88va8jguli2m8d1hioor9e8.apps.googleusercontent.com&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Foauth2callback&response_type=code&scope=https%3A%2F%2Fdocs.google.com%2Ffeeds%2F+https%3A%2F%2Fdocs.googleusercontent.com%2F+https%3A%2F%2Fspreadsheets.google.com%2Ffeeds%2F
+Filter chain halted as :google_drive_login rendered or redirected
+Completed 302 Found in 5ms
+
+
+Started GET "/oauth2callback?code=4/8DC9sHTR67aSIH78Or7uvAHWl_IpCYSkyzkfBJnnYdU.EkaS7LWe0PUQoiIBeO6P2m88dg1VlAI" for 127.0.0.1 at 2014-12-08 16:29:20 +0100
+Processing by StockController#set_google_drive_token as HTML
+  Parameters: {"code"=>"4/8DC9sHTR67aSIH78Or7uvAHWl_IpCYSkyzkfBJnnYdU.EkaS7LWe0PUQoiIBeO6P2m88dg1VlAI"}
+Redirected to http://localhost:3000/stock
+Completed 302 Found in 341ms
+
+
+Started GET "/stock" for 127.0.0.1 at 2014-12-08 16:29:20 +0100
+Processing by StockController#index as HTML
+Redirected to https://accounts.google.com/o/oauth2/auth?access_type=offline&client_id=203558282158-s92u2dh0j88va8jguli2m8d1hioor9e8.apps.googleusercontent.com&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Foauth2callback&response_type=code&scope=https%3A%2F%2Fdocs.google.com%2Ffeeds%2F+https%3A%2F%2Fdocs.googleusercontent.com%2F+https%3A%2F%2Fspreadsheets.google.com%2Ffeeds%2F
+Filter chain halted as :google_drive_login rendered or redirected
+Completed 302 Found in 1ms
+
+
+Started GET "/oauth2callback?code=4/M1c1FEPwRLpC-F9LewwmdbRDhncSXiNQ6DHZAXMaJG0.oiK9igrfSxEYoiIBeO6P2m8wuw1VlAI" for 127.0.0.1 at 2014-12-08 16:29:29 +0100
+Processing by StockController#set_google_drive_token as HTML
+  Parameters: {"code"=>"4/M1c1FEPwRLpC-F9LewwmdbRDhncSXiNQ6DHZAXMaJG0.oiK9igrfSxEYoiIBeO6P2m8wuw1VlAI"}
+Redirected to http://localhost:3000/stock
+Completed 302 Found in 255ms
+
+
+Started GET "/stock" for 127.0.0.1 at 2014-12-08 16:29:29 +0100
+Processing by StockController#index as HTML
+  Rendered stock/index.html.erb within layouts/application (3880.0ms)
+Completed 200 OK in 15286ms (Views: 3883.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-12-08 16:29:44 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-12-08 16:29:44 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-12-08 16:29:44 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-12-08 16:29:44 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-12-08 16:29:44 +0100
