@@ -1,0 +1,8 @@
+google_client_id: "203558282158-s92u2dh0j88va8jguli2m8d1hioor9e8.apps.googleusercontent.com"
+google_client_secret: "UtPgmt6tCRoqymyuR9uZxCZh"
+google_client_redirect_uri: "http://localhost:3000/oauth2callback"
+
+production:
+  google_client_id: "577293815693-9gqt0bfp5ei3la98uck623pgjjejk25h.apps.googleusercontent.com"
+  google_client_secret: "2trxtmfTQkr5fr3_bH3Q_Zjc"
+  google_client_redirect_uri: "http://aga-osl.herokuapp.com/oauth2callback"

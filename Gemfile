@@ -33,6 +33,9 @@ end
 gem 'google_drive'
 gem 'oauth2'
 gem 'google-api-client', '~> 0.7.1'
+
+gem "figaro"
+gem "pry"
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
