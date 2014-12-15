@@ -2430,3 +2430,590 @@ Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-12-08 16:29:44 
 
 
 Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-12-08 16:29:44 +0100
+
+
+Started GET "/stock.json" for 127.0.0.1 at 2014-12-14 21:17:51 +0100
+Processing by StockController#index as JSON
+Redirected to https://accounts.google.com/o/oauth2/auth?access_type=offline&client_id=203558282158-s92u2dh0j88va8jguli2m8d1hioor9e8.apps.googleusercontent.com&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Foauth2callback&response_type=code&scope=https%3A%2F%2Fdocs.google.com%2Ffeeds%2F+https%3A%2F%2Fdocs.googleusercontent.com%2F+https%3A%2F%2Fspreadsheets.google.com%2Ffeeds%2F
+Filter chain halted as :google_drive_login rendered or redirected
+Completed 302 Found in 21ms
+
+
+Started GET "/oauth2callback?code=4/EkscGwO5IacaUl7tb_jy-6PiMbq9VXhGVR0xAFnH96s.Igy3Yted1MkSoiIBeO6P2m8eM-qUlAI" for 127.0.0.1 at 2014-12-14 21:17:55 +0100
+Processing by StockController#set_google_drive_token as HTML
+  Parameters: {"code"=>"4/EkscGwO5IacaUl7tb_jy-6PiMbq9VXhGVR0xAFnH96s.Igy3Yted1MkSoiIBeO6P2m8eM-qUlAI"}
+Redirected to http://localhost:3000/stock
+Completed 302 Found in 707ms
+
+
+Started GET "/stock" for 127.0.0.1 at 2014-12-14 21:17:55 +0100
+Processing by StockController#index as HTML
+  Rendered stock/index.html.erb within layouts/application (1238.6ms)
+Completed 200 OK in 3540ms (Views: 1284.7ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-12-14 21:17:59 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-12-14 21:17:59 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-12-14 21:17:59 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-12-14 21:17:59 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-12-14 21:17:59 +0100
+
+
+Started GET "/stock.json" for 127.0.0.1 at 2014-12-14 21:18:04 +0100
+Processing by StockController#index as JSON
+Completed 200 OK in 2049ms (Views: 10.3ms)
+
+
+Started GET "/stock.json" for 127.0.0.1 at 2014-12-14 21:21:36 +0100
+Processing by StockController#index as JSON
+Completed 200 OK in 3251ms (Views: 0.2ms)
+
+
+Started GET "/stock.json" for 127.0.0.1 at 2014-12-14 21:23:55 +0100
+Processing by StockController#index as JSON
+  Rendered stock/_index.json (0.3ms)
+Completed 200 OK in 1079ms (Views: 11.6ms)
+
+
+Started GET "/stock.json" for 127.0.0.1 at 2014-12-14 21:24:28 +0100
+Processing by StockController#index as JSON
+  Rendered stock/_index.json (0.3ms)
+Completed 200 OK in 605ms (Views: 1.2ms)
+
+
+Started GET "/stock.json" for 127.0.0.1 at 2014-12-14 21:25:52 +0100
+Processing by StockController#index as JSON
+  Rendered stock/index.json.erb (3610.3ms)
+Completed 200 OK in 4253ms (Views: 3612.3ms)
+
+
+Started GET "/stock.json" for 127.0.0.1 at 2014-12-14 21:26:48 +0100
+Processing by StockController#index as JSON
+  Rendered stock/index.json.erb (1290.6ms)
+Completed 200 OK in 2066ms (Views: 1292.4ms)
+
+
+Started GET "/stock.json" for 127.0.0.1 at 2014-12-14 21:27:57 +0100
+Processing by StockController#index as JSON
+  Rendered stock/index.json.erb (1418.9ms)
+Completed 200 OK in 2543ms (Views: 1420.7ms)
+
+
+Started GET "/stock.json" for 127.0.0.1 at 2014-12-14 21:28:25 +0100
+Processing by StockController#index as JSON
+  Rendered stock/index.json.erb (1506.2ms)
+Completed 200 OK in 2281ms (Views: 1508.0ms)
+
+
+Started GET "/stock.json" for 127.0.0.1 at 2014-12-14 21:30:36 +0100
+Processing by StockController#index as JSON
+  Rendered stock/index.json.erb (2200.2ms)
+Completed 200 OK in 4455ms (Views: 2201.7ms)
+
+
+Started GET "/stock.json" for 127.0.0.1 at 2014-12-14 21:54:29 +0100
+Processing by StockController#index as JSON
+  Rendered stock/index.json.erb (13256.6ms)
+Completed 200 OK in 17902ms (Views: 13258.5ms)
+
+
+Started GET "/stock.json" for 127.0.0.1 at 2014-12-14 22:44:37 +0100
+Processing by StockController#index as JSON
+Completed 500 Internal Server Error in 1101ms
+
+GoogleDrive::AuthenticationError (Response code 401 for get https://spreadsheets.google.com/feeds/worksheets/0AgWDbm7D_t2RdGFfdldFX3Z1aFllRG83bjZTYzU5VkE/private/full: <HTML>
+<HEAD>
+<TITLE>Token invalid - Invalid token: Token not found</TITLE>
+</HEAD>
+<BODY BGCOLOR="#FFFFFF" TEXT="#000000">
+<H1>Token invalid - Invalid token: Token not found</H1>
+<H2>Error 401</H2>
+</BODY>
+</HTML>
+):
+  app/controllers/stock_controller.rb:7:in `index'
+
+
+  Rendered /Users/haricarreras/.rvm/rubies/ruby-2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.0.12/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.6ms)
+  Rendered /Users/haricarreras/.rvm/rubies/ruby-2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.0.12/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+  Rendered /Users/haricarreras/.rvm/rubies/ruby-2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.0.12/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+  Rendered /Users/haricarreras/.rvm/rubies/ruby-2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.0.12/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (17.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-12-15 17:13:28 +0100
+Processing by StaticPagesController#index as HTML
+  Rendered static_pages/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 47ms (Views: 37.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-12-15 17:13:28 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-12-15 17:13:28 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-12-15 17:13:28 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-12-15 17:13:28 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-12-15 17:13:28 +0100
+
+
+Started GET "/stock" for 127.0.0.1 at 2014-12-15 17:13:31 +0100
+Processing by StockController#index as HTML
+Redirected to https://accounts.google.com/o/oauth2/auth?access_type=offline&client_id=203558282158-s92u2dh0j88va8jguli2m8d1hioor9e8.apps.googleusercontent.com&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Foauth2callback&response_type=code&scope=https%3A%2F%2Fdocs.google.com%2Ffeeds%2F+https%3A%2F%2Fdocs.googleusercontent.com%2F+https%3A%2F%2Fspreadsheets.google.com%2Ffeeds%2F
+Filter chain halted as :google_drive_login rendered or redirected
+Completed 302 Found in 7ms
+
+
+Started GET "/stock" for 127.0.0.1 at 2014-12-15 17:13:31 +0100
+Processing by StockController#index as HTML
+Redirected to https://accounts.google.com/o/oauth2/auth?access_type=offline&client_id=203558282158-s92u2dh0j88va8jguli2m8d1hioor9e8.apps.googleusercontent.com&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Foauth2callback&response_type=code&scope=https%3A%2F%2Fdocs.google.com%2Ffeeds%2F+https%3A%2F%2Fdocs.googleusercontent.com%2F+https%3A%2F%2Fspreadsheets.google.com%2Ffeeds%2F
+Filter chain halted as :google_drive_login rendered or redirected
+Completed 302 Found in 3ms
+
+
+Started GET "/oauth2callback?code=4/S51frezHJCkEJWAjIFPQa51kFHCgiBY9r43gtWt4lLo.Eqdif5QSzV8ToiIBeO6P2m8wc3edlAI" for 127.0.0.1 at 2014-12-15 17:13:33 +0100
+Processing by StockController#set_google_drive_token as HTML
+  Parameters: {"code"=>"4/S51frezHJCkEJWAjIFPQa51kFHCgiBY9r43gtWt4lLo.Eqdif5QSzV8ToiIBeO6P2m8wc3edlAI"}
+Redirected to http://localhost:3000/stock
+Completed 302 Found in 962ms
+
+
+Started GET "/stock" for 127.0.0.1 at 2014-12-15 17:13:34 +0100
+Processing by StockController#index as HTML
+  Rendered stock/index.html.erb within layouts/application (1491.0ms)
+Completed 200 OK in 4283ms (Views: 1495.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-12-15 17:13:38 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-12-15 17:13:38 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-12-15 17:13:38 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-12-15 17:13:38 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-12-15 17:13:38 +0100
+
+
+Started GET "/stock.json" for 127.0.0.1 at 2014-12-15 17:13:52 +0100
+Processing by StockController#index as JSON
+  Rendered stock/index.json.erb (13410.0ms)
+Completed 200 OK in 14007ms (Views: 13411.6ms)
+
+
+Started GET "/stock.json" for 127.0.0.1 at 2014-12-15 17:14:40 +0100
+Processing by StockController#index as JSON
+  Rendered stock/index.json.erb (14497.9ms)
+Completed 200 OK in 14997ms (Views: 14499.4ms)
+
+
+Started GET "/stock.json" for 127.0.0.1 at 2014-12-15 17:15:17 +0100
+Processing by StockController#index as JSON
+  Rendered stock/index.json.erb (17314.2ms)
+Completed 200 OK in 18003ms (Views: 17316.1ms)
+
+
+Started GET "/stock.json" for 127.0.0.1 at 2014-12-15 17:17:02 +0100
+Processing by StockController#index as JSON
+  Rendered stock/index.json.erb (13053.9ms)
+Completed 200 OK in 13712ms (Views: 13055.5ms)
+
+
+Started GET "/stock.json" for 127.0.0.1 at 2014-12-15 17:22:55 +0100
+Processing by StockController#index as JSON
+Completed 200 OK in 4339ms (Views: 12.4ms)
+
+
+Started GET "/stock.json" for 127.0.0.1 at 2014-12-15 17:27:15 +0100
+Processing by StockController#index as JSON
+Completed 200 OK in 15585ms (Views: 10.1ms)
+
+
+Started GET "/stock.json" for 127.0.0.1 at 2014-12-15 17:27:41 +0100
+Processing by StockController#index as JSON
+Completed 200 OK in 13539ms (Views: 10.5ms)
+
+
+Started GET "/stock.json" for 127.0.0.1 at 2014-12-15 17:28:27 +0100
+Processing by StockController#index as JSON
+Completed 200 OK in 13861ms (Views: 10.3ms)
+
+
+Started GET "/stock.json" for 127.0.0.1 at 2014-12-15 17:37:48 +0100
+Processing by StockController#index as JSON
+Completed 500 Internal Server Error in 4323ms
+
+TypeError (no implicit conversion of Hash into String):
+  app/controllers/stock_controller.rb:58:in `block (3 levels) in render_json'
+  app/controllers/stock_controller.rb:57:in `each'
+  app/controllers/stock_controller.rb:57:in `block (2 levels) in render_json'
+  app/controllers/stock_controller.rb:56:in `each'
+  app/controllers/stock_controller.rb:56:in `block in render_json'
+  app/controllers/stock_controller.rb:55:in `each'
+  app/controllers/stock_controller.rb:55:in `render_json'
+  app/controllers/stock_controller.rb:11:in `block (2 levels) in index'
+  app/controllers/stock_controller.rb:9:in `index'
+
+
+  Rendered /Users/haricarreras/.rvm/rubies/ruby-2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.0.12/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.6ms)
+  Rendered /Users/haricarreras/.rvm/rubies/ruby-2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.0.12/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered /Users/haricarreras/.rvm/rubies/ruby-2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.0.12/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+  Rendered /Users/haricarreras/.rvm/rubies/ruby-2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.0.12/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (17.3ms)
+
+
+Started GET "/stock.json" for 127.0.0.1 at 2014-12-15 17:39:07 +0100
+Processing by StockController#index as JSON
+
+
+Started GET "/stock/4" for 127.0.0.1 at 2014-12-15 18:18:08 +0100
+Processing by StockController#show as HTML
+  Parameters: {"id"=>"4"}
+Completed 500 Internal Server Error in 631ms
+
+GoogleDrive::AuthenticationError (Response code 401 for get https://spreadsheets.google.com/feeds/worksheets/0AgWDbm7D_t2RdGFfdldFX3Z1aFllRG83bjZTYzU5VkE/private/full: <HTML>
+<HEAD>
+<TITLE>Token invalid - Invalid token: Token not found</TITLE>
+</HEAD>
+<BODY BGCOLOR="#FFFFFF" TEXT="#000000">
+<H1>Token invalid - Invalid token: Token not found</H1>
+<H2>Error 401</H2>
+</BODY>
+</HTML>
+):
+  app/controllers/stock_controller.rb:17:in `show'
+
+
+  Rendered /Users/haricarreras/.rvm/rubies/ruby-2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.0.12/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.5ms)
+  Rendered /Users/haricarreras/.rvm/rubies/ruby-2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.0.12/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.7ms)
+  Rendered /Users/haricarreras/.rvm/rubies/ruby-2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.0.12/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.6ms)
+  Rendered /Users/haricarreras/.rvm/rubies/ruby-2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.0.12/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (11.8ms)
+
+
+Started GET "/stock/4.json" for 127.0.0.1 at 2014-12-15 18:18:12 +0100
+Processing by StockController#show as JSON
+  Parameters: {"id"=>"4"}
+Completed 500 Internal Server Error in 479ms
+
+GoogleDrive::AuthenticationError (Response code 401 for get https://spreadsheets.google.com/feeds/worksheets/0AgWDbm7D_t2RdGFfdldFX3Z1aFllRG83bjZTYzU5VkE/private/full: <HTML>
+<HEAD>
+<TITLE>Token invalid - Invalid token: Token not found</TITLE>
+</HEAD>
+<BODY BGCOLOR="#FFFFFF" TEXT="#000000">
+<H1>Token invalid - Invalid token: Token not found</H1>
+<H2>Error 401</H2>
+</BODY>
+</HTML>
+):
+  app/controllers/stock_controller.rb:17:in `show'
+
+
+  Rendered /Users/haricarreras/.rvm/rubies/ruby-2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.0.12/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.5ms)
+  Rendered /Users/haricarreras/.rvm/rubies/ruby-2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.0.12/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.7ms)
+  Rendered /Users/haricarreras/.rvm/rubies/ruby-2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.0.12/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+  Rendered /Users/haricarreras/.rvm/rubies/ruby-2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.0.12/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (11.6ms)
+
+
+Started GET "/stock" for 127.0.0.1 at 2014-12-15 18:18:20 +0100
+Processing by StockController#index as HTML
+Completed 500 Internal Server Error in 616ms
+
+GoogleDrive::AuthenticationError (Response code 401 for get https://spreadsheets.google.com/feeds/worksheets/0AgWDbm7D_t2RdGFfdldFX3Z1aFllRG83bjZTYzU5VkE/private/full: <HTML>
+<HEAD>
+<TITLE>Token invalid - Invalid token: Token not found</TITLE>
+</HEAD>
+<BODY BGCOLOR="#FFFFFF" TEXT="#000000">
+<H1>Token invalid - Invalid token: Token not found</H1>
+<H2>Error 401</H2>
+</BODY>
+</HTML>
+):
+  app/controllers/stock_controller.rb:7:in `index'
+
+
+  Rendered /Users/haricarreras/.rvm/rubies/ruby-2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.0.12/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.7ms)
+  Rendered /Users/haricarreras/.rvm/rubies/ruby-2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.0.12/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered /Users/haricarreras/.rvm/rubies/ruby-2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.0.12/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+  Rendered /Users/haricarreras/.rvm/rubies/ruby-2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.0.12/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (13.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-12-15 18:18:23 +0100
+Processing by StaticPagesController#index as HTML
+  Rendered static_pages/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 20ms (Views: 18.7ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-12-15 18:18:23 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-12-15 18:18:23 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-12-15 18:18:23 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-12-15 18:18:23 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-12-15 18:18:23 +0100
+
+
+Started GET "/stock" for 127.0.0.1 at 2014-12-15 18:18:24 +0100
+Processing by StockController#index as HTML
+Completed 500 Internal Server Error in 444ms
+
+GoogleDrive::AuthenticationError (Response code 401 for get https://spreadsheets.google.com/feeds/worksheets/0AgWDbm7D_t2RdGFfdldFX3Z1aFllRG83bjZTYzU5VkE/private/full: <HTML>
+<HEAD>
+<TITLE>Token invalid - Invalid token: Token not found</TITLE>
+</HEAD>
+<BODY BGCOLOR="#FFFFFF" TEXT="#000000">
+<H1>Token invalid - Invalid token: Token not found</H1>
+<H2>Error 401</H2>
+</BODY>
+</HTML>
+):
+  app/controllers/stock_controller.rb:7:in `index'
+
+
+  Rendered /Users/haricarreras/.rvm/rubies/ruby-2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.0.12/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.4ms)
+  Rendered /Users/haricarreras/.rvm/rubies/ruby-2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.0.12/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.7ms)
+  Rendered /Users/haricarreras/.rvm/rubies/ruby-2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.0.12/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+  Rendered /Users/haricarreras/.rvm/rubies/ruby-2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.0.12/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (11.1ms)
+
+
+Started GET "/stock" for 127.0.0.1 at 2014-12-15 18:18:25 +0100
+Processing by StockController#index as HTML
+Completed 500 Internal Server Error in 498ms
+
+GoogleDrive::AuthenticationError (Response code 401 for get https://spreadsheets.google.com/feeds/worksheets/0AgWDbm7D_t2RdGFfdldFX3Z1aFllRG83bjZTYzU5VkE/private/full: <HTML>
+<HEAD>
+<TITLE>Token invalid - Invalid token: Token not found</TITLE>
+</HEAD>
+<BODY BGCOLOR="#FFFFFF" TEXT="#000000">
+<H1>Token invalid - Invalid token: Token not found</H1>
+<H2>Error 401</H2>
+</BODY>
+</HTML>
+):
+  app/controllers/stock_controller.rb:7:in `index'
+
+
+  Rendered /Users/haricarreras/.rvm/rubies/ruby-2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.0.12/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.5ms)
+  Rendered /Users/haricarreras/.rvm/rubies/ruby-2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.0.12/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.8ms)
+  Rendered /Users/haricarreras/.rvm/rubies/ruby-2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.0.12/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+  Rendered /Users/haricarreras/.rvm/rubies/ruby-2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.0.12/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (11.9ms)
+
+
+Started GET "/stock" for 127.0.0.1 at 2014-12-15 18:19:16 +0100
+Processing by StockController#index as HTML
+Redirected to https://accounts.google.com/o/oauth2/auth?access_type=offline&client_id=203558282158-s92u2dh0j88va8jguli2m8d1hioor9e8.apps.googleusercontent.com&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Foauth2callback&response_type=code&scope=https%3A%2F%2Fdocs.google.com%2Ffeeds%2F+https%3A%2F%2Fdocs.googleusercontent.com%2F+https%3A%2F%2Fspreadsheets.google.com%2Ffeeds%2F
+Filter chain halted as :google_drive_login rendered or redirected
+Completed 302 Found in 3ms
+
+
+Started GET "/oauth2callback?code=4/pObT-06WBp6di6YqH91QOdBjbG8rX19VoLrdj8eKwO8.0kQ1BMlQ71oSoiIBeO6P2m-KK_CdlAI" for 127.0.0.1 at 2014-12-15 18:19:29 +0100
+Processing by StockController#set_google_drive_token as HTML
+  Parameters: {"code"=>"4/pObT-06WBp6di6YqH91QOdBjbG8rX19VoLrdj8eKwO8.0kQ1BMlQ71oSoiIBeO6P2m-KK_CdlAI"}
+Redirected to http://localhost:3000/stock
+Completed 302 Found in 241ms
+
+
+Started GET "/stock" for 127.0.0.1 at 2014-12-15 18:19:29 +0100
+Processing by StockController#index as HTML
+  Rendered stock/index.html.erb within layouts/application (1887.8ms)
+Completed 200 OK in 4586ms (Views: 1891.1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-12-15 18:19:33 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-12-15 18:19:33 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-12-15 18:19:33 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-12-15 18:19:33 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-12-15 18:19:33 +0100
+
+
+Started GET "/stock/4.json" for 127.0.0.1 at 2014-12-15 18:19:38 +0100
+Processing by StockController#show as JSON
+  Parameters: {"id"=>"4"}
+Completed 500 Internal Server Error in 2744ms
+
+TypeError (no implicit conversion of String into Integer):
+  app/controllers/stock_controller.rb:63:in `[]'
+  app/controllers/stock_controller.rb:63:in `row_to_hash'
+  app/controllers/stock_controller.rb:20:in `block (2 levels) in show'
+  app/controllers/stock_controller.rb:19:in `show'
+
+
+  Rendered /Users/haricarreras/.rvm/rubies/ruby-2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.0.12/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.6ms)
+  Rendered /Users/haricarreras/.rvm/rubies/ruby-2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.0.12/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+  Rendered /Users/haricarreras/.rvm/rubies/ruby-2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.0.12/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+  Rendered /Users/haricarreras/.rvm/rubies/ruby-2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.0.12/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (11.8ms)
+
+
+Started GET "/stock/4.json" for 127.0.0.1 at 2014-12-15 18:20:44 +0100
+Processing by StockController#show as JSON
+  Parameters: {"id"=>"4"}
+Completed 500 Internal Server Error in 2426ms
+
+TypeError (no implicit conversion of String into Integer):
+  app/controllers/stock_controller.rb:63:in `[]'
+  app/controllers/stock_controller.rb:63:in `row_to_hash'
+  app/controllers/stock_controller.rb:20:in `block (2 levels) in show'
+  app/controllers/stock_controller.rb:19:in `show'
+
+
+  Rendered /Users/haricarreras/.rvm/rubies/ruby-2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.0.12/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.5ms)
+  Rendered /Users/haricarreras/.rvm/rubies/ruby-2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.0.12/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+  Rendered /Users/haricarreras/.rvm/rubies/ruby-2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.0.12/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+  Rendered /Users/haricarreras/.rvm/rubies/ruby-2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.0.12/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (11.7ms)
+
+
+Started GET "/stock/4.json" for 127.0.0.1 at 2014-12-15 18:21:34 +0100
+Processing by StockController#show as JSON
+  Parameters: {"id"=>"4"}
+Completed 500 Internal Server Error in 3245ms
+
+TypeError (no implicit conversion of String into Integer):
+  app/controllers/stock_controller.rb:63:in `[]'
+  app/controllers/stock_controller.rb:63:in `row_to_hash'
+  app/controllers/stock_controller.rb:20:in `block (2 levels) in show'
+  app/controllers/stock_controller.rb:19:in `show'
+
+
+  Rendered /Users/haricarreras/.rvm/rubies/ruby-2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.0.12/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.7ms)
+  Rendered /Users/haricarreras/.rvm/rubies/ruby-2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.0.12/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+  Rendered /Users/haricarreras/.rvm/rubies/ruby-2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.0.12/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+  Rendered /Users/haricarreras/.rvm/rubies/ruby-2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.0.12/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (12.8ms)
+
+
+Started GET "/stock/4.json" for 127.0.0.1 at 2014-12-15 18:21:43 +0100
+Processing by StockController#show as JSON
+  Parameters: {"id"=>"4"}
+Completed 500 Internal Server Error in 2310ms
+
+TypeError (no implicit conversion of String into Integer):
+  app/controllers/stock_controller.rb:63:in `[]'
+  app/controllers/stock_controller.rb:63:in `row_to_hash'
+  app/controllers/stock_controller.rb:20:in `block (2 levels) in show'
+  app/controllers/stock_controller.rb:19:in `show'
+
+
+  Rendered /Users/haricarreras/.rvm/rubies/ruby-2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.0.12/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.6ms)
+  Rendered /Users/haricarreras/.rvm/rubies/ruby-2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.0.12/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered /Users/haricarreras/.rvm/rubies/ruby-2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.0.12/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+  Rendered /Users/haricarreras/.rvm/rubies/ruby-2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.0.12/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (12.1ms)
+
+
+Started GET "/stock/4.json" for 127.0.0.1 at 2014-12-15 18:22:01 +0100
+Processing by StockController#show as JSON
+  Parameters: {"id"=>"4"}
+Completed 500 Internal Server Error in 34983ms
+
+TypeError (no implicit conversion of String into Integer):
+  app/controllers/stock_controller.rb:64:in `[]'
+  app/controllers/stock_controller.rb:64:in `row_to_hash'
+  app/controllers/stock_controller.rb:20:in `block (2 levels) in show'
+  app/controllers/stock_controller.rb:19:in `show'
+
+
+  Rendered /Users/haricarreras/.rvm/rubies/ruby-2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.0.12/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.5ms)
+  Rendered /Users/haricarreras/.rvm/rubies/ruby-2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.0.12/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+  Rendered /Users/haricarreras/.rvm/rubies/ruby-2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.0.12/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+  Rendered /Users/haricarreras/.rvm/rubies/ruby-2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.0.12/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (12.4ms)
+
+
+Started GET "/stock/4.json" for 127.0.0.1 at 2014-12-15 18:22:36 +0100
+Processing by StockController#show as JSON
+  Parameters: {"id"=>"4"}
+Completed 200 OK in 5510ms (Views: 0.4ms)
+
+
+Started GET "/stock/4.json" for 127.0.0.1 at 2014-12-15 18:22:41 +0100
+Processing by StockController#show as JSON
+  Parameters: {"id"=>"4"}
+Completed 200 OK in 2495ms (Views: 0.4ms)
+
+
+Started GET "/stock/4.json" for 127.0.0.1 at 2014-12-15 18:26:23 +0100
+Processing by StockController#show as JSON
+  Parameters: {"id"=>"4"}
+Completed 200 OK in 4869ms (Views: 0.4ms)
+
+
+Started GET "/stock/4.json" for 127.0.0.1 at 2014-12-15 18:26:36 +0100
+Processing by StockController#show as JSON
+  Parameters: {"id"=>"4"}
+Completed 200 OK in 2565ms (Views: 0.4ms)
+
+
+Started GET "/stock/4.json" for 127.0.0.1 at 2014-12-15 18:26:43 +0100
+Processing by StockController#show as JSON
+  Parameters: {"id"=>"4"}
+Completed 200 OK in 160801ms (Views: 0.4ms)
+
+
+Started GET "/stock" for 127.0.0.1 at 2014-12-15 18:29:39 +0100
+Processing by StockController#index as HTML
+  Rendered stock/index.html.erb within layouts/application (1913.9ms)
+Completed 200 OK in 3830ms (Views: 1932.9ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-12-15 18:29:43 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-12-15 18:29:43 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-12-15 18:29:43 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-12-15 18:29:43 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-12-15 18:29:43 +0100
+
+
+Started GET "/stock.json" for 127.0.0.1 at 2014-12-15 18:29:46 +0100
+Processing by StockController#index as JSON
+Completed 500 Internal Server Error in 2444ms
+
+TypeError (no implicit conversion of Array into Integer):
+  app/controllers/stock_controller.rb:63:in `[]'
+  app/controllers/stock_controller.rb:63:in `row_to_hash'
+  app/controllers/stock_controller.rb:11:in `block (3 levels) in index'
+  app/controllers/stock_controller.rb:11:in `map'
+  app/controllers/stock_controller.rb:11:in `block (2 levels) in index'
+  app/controllers/stock_controller.rb:9:in `index'
+
+
+  Rendered /Users/haricarreras/.rvm/rubies/ruby-2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.0.12/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.5ms)
+  Rendered /Users/haricarreras/.rvm/rubies/ruby-2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.0.12/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.8ms)
+  Rendered /Users/haricarreras/.rvm/rubies/ruby-2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.0.12/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+  Rendered /Users/haricarreras/.rvm/rubies/ruby-2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.0.12/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (11.2ms)
+
+
+Started GET "/stock.json" for 127.0.0.1 at 2014-12-15 18:31:39 +0100
+Processing by StockController#index as JSON
+Completed 200 OK in 13861ms (Views: 23.4ms)

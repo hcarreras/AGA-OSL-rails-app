@@ -8,7 +8,16 @@ class StockController < ApplicationController
 
     respond_to do |format|
       format.html
-      format.json{ render json: @sheet.rows}
+      format.json{ render json: @sheet.rows[2..-1].map{|row| row_to_hash(@sheet, row)}}
+    end
+  end
+
+  def show
+    google_session = GoogleDrive.login_with_oauth(session[:google_token])
+    @sheet = google_session.spreadsheet_by_key("0AgWDbm7D_t2RdGFfdldFX3Z1aFllRG83bjZTYzU5VkE").worksheets[0]
+
+    respond_to do |format|
+      format.json{ render json: row_to_hash(@sheet, @sheet.rows[params[:id].to_i])}
     end
   end
 
@@ -30,13 +39,6 @@ class StockController < ApplicationController
   end
 
   def set_google_drive_token
-    puts "----------------------------"
-    puts "----------------------------"
-    puts "----------------------------"
-    puts "ENV['google_client_id'] #{ENV['google_client_id']}"
-    puts "ENV['google_client_secret'] #{ENV['google_client_secret']}"
-    puts "ENV['google_client_redirect_uri'] #{ENV['google_client_redirect_uri']}"
-
     google_doc = GoogleDrive::GoogleDocs.new(ENV['google_client_id'], ENV['google_client_secret'],
                                              ENV['google_client_redirect_uri'])
     oauth_client = google_doc.create_google_client
@@ -53,5 +55,13 @@ class StockController < ApplicationController
       auth_url = google_drive.set_google_authorize_url
       redirect_to auth_url
     end
+  end
+
+  private
+
+  def row_to_hash(sheet, row)
+    row.each_with_index.map do |data, index|
+      [sheet.rows[1][index], data]
+    end.to_h
   end
 end
