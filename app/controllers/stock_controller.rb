@@ -1,6 +1,6 @@
 require 'google_drive/google_docs'
 class StockController < ApplicationController
-  before_filter :google_drive_login, :only => [:index]
+  before_filter :google_drive_login, :only => [:index, :show]
 
   def index
     google_session = GoogleDrive.login_with_oauth(session[:google_token])
