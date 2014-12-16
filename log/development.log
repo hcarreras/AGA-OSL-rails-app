@@ -3056,3 +3056,35 @@ Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-12-16 10:52:42
 
 Started GET "/stock" for 127.0.0.1 at 2014-12-16 10:53:00 +0100
 Processing by StockController#index as HTML
+Processing by StockController#index as HTML
+Redirected to https://accounts.google.com/o/oauth2/auth?access_type=offline&client_id=203558282158-s92u2dh0j88va8jguli2m8d1hioor9e8.apps.googleusercontent.com&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Foauth2callback&response_type=code&scope=https%3A%2F%2Fdocs.google.com%2Ffeeds%2F+https%3A%2F%2Fdocs.googleusercontent.com%2F+https%3A%2F%2Fspreadsheets.google.com%2Ffeeds%2F
+Filter chain halted as :google_drive_login rendered or redirected
+Completed 302 Found in 3ms
+Processing by StockController#index as HTML
+Redirected to https://accounts.google.com/o/oauth2/auth?access_type=offline&client_id=203558282158-s92u2dh0j88va8jguli2m8d1hioor9e8.apps.googleusercontent.com&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Foauth2callback&response_type=code&scope=https%3A%2F%2Fdocs.google.com%2Ffeeds%2F+https%3A%2F%2Fdocs.googleusercontent.com%2F+https%3A%2F%2Fspreadsheets.google.com%2Ffeeds%2F
+Filter chain halted as :google_drive_login rendered or redirected
+Completed 302 Found in 3ms
+Processing by StockController#index as HTML
+Redirected to https://accounts.google.com/o/oauth2/auth?access_type=offline&client_id=203558282158-s92u2dh0j88va8jguli2m8d1hioor9e8.apps.googleusercontent.com&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Foauth2callback&response_type=code&scope=https%3A%2F%2Fdocs.google.com%2Ffeeds%2F+https%3A%2F%2Fdocs.googleusercontent.com%2F+https%3A%2F%2Fspreadsheets.google.com%2Ffeeds%2F
+Filter chain halted as :google_drive_login rendered or redirected
+Completed 302 Found in 3ms
+Processing by StockController#index as JSON
+Redirected to https://accounts.google.com/o/oauth2/auth?access_type=offline&client_id=203558282158-s92u2dh0j88va8jguli2m8d1hioor9e8.apps.googleusercontent.com&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Foauth2callback&response_type=code&scope=https%3A%2F%2Fdocs.google.com%2Ffeeds%2F+https%3A%2F%2Fdocs.googleusercontent.com%2F+https%3A%2F%2Fspreadsheets.google.com%2Ffeeds%2F
+Filter chain halted as :google_drive_login rendered or redirected
+Completed 302 Found in 1ms
+Processing by StockController#index as HTML
+Redirected to https://accounts.google.com/o/oauth2/auth?access_type=offline&client_id=203558282158-s92u2dh0j88va8jguli2m8d1hioor9e8.apps.googleusercontent.com&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Foauth2callback&response_type=code&scope=https%3A%2F%2Fdocs.google.com%2Ffeeds%2F+https%3A%2F%2Fdocs.googleusercontent.com%2F+https%3A%2F%2Fspreadsheets.google.com%2Ffeeds%2F
+Filter chain halted as :google_drive_login rendered or redirected
+Completed 302 Found in 3ms
+Processing by StockController#index as JSON
+Redirected to https://accounts.google.com/o/oauth2/auth?access_type=offline&client_id=203558282158-s92u2dh0j88va8jguli2m8d1hioor9e8.apps.googleusercontent.com&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Foauth2callback&response_type=code&scope=https%3A%2F%2Fdocs.google.com%2Ffeeds%2F+https%3A%2F%2Fdocs.googleusercontent.com%2F+https%3A%2F%2Fspreadsheets.google.com%2Ffeeds%2F
+Filter chain halted as :google_drive_login rendered or redirected
+Completed 302 Found in 1ms
+Processing by StockController#index as HTML
+Redirected to https://accounts.google.com/o/oauth2/auth?access_type=offline&client_id=203558282158-s92u2dh0j88va8jguli2m8d1hioor9e8.apps.googleusercontent.com&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Foauth2callback&response_type=code&scope=https%3A%2F%2Fdocs.google.com%2Ffeeds%2F+https%3A%2F%2Fdocs.googleusercontent.com%2F+https%3A%2F%2Fspreadsheets.google.com%2Ffeeds%2F
+Filter chain halted as :google_drive_login rendered or redirected
+Completed 302 Found in 3ms
+Processing by StockController#index as JSON
+Redirected to https://accounts.google.com/o/oauth2/auth?access_type=offline&client_id=203558282158-s92u2dh0j88va8jguli2m8d1hioor9e8.apps.googleusercontent.com&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Foauth2callback&response_type=code&scope=https%3A%2F%2Fdocs.google.com%2Ffeeds%2F+https%3A%2F%2Fdocs.googleusercontent.com%2F+https%3A%2F%2Fspreadsheets.google.com%2Ffeeds%2F
+Filter chain halted as :google_drive_login rendered or redirected
+Completed 302 Found in 1ms
