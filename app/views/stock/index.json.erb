@@ -1,9 +1,0 @@
-<% @sheet.rows.each do |row| %>
-  <% row.each do |data|%>
-    <% @sheet.rows[1].each do |head| %>
-      <%= {head: data}.to_json.html_safe %>
-    <% end %>
-  <% end %>
-<% end %>
-
-

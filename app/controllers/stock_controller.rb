@@ -3,6 +3,7 @@ class StockController < ApplicationController
   before_filter :google_drive_login, :only => [:index, :show]
 
   def index
+    binding.pry
     google_session = GoogleDrive.login_with_oauth(session[:google_token])
     @sheet = google_session.spreadsheet_by_key("0AgWDbm7D_t2RdGFfdldFX3Z1aFllRG83bjZTYzU5VkE").worksheets[0]
 

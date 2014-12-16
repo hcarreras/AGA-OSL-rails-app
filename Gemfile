@@ -37,6 +37,12 @@ gem 'google-api-client', '~> 0.7.1'
 
 gem "figaro"
 gem "pry"
+gem "newrelic_rpm"
+
+group :development, :test do
+  gem 'rspec-rails', '~> 3.0'
+end
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
