@@ -3088,3 +3088,242 @@ Processing by StockController#index as JSON
 Redirected to https://accounts.google.com/o/oauth2/auth?access_type=offline&client_id=203558282158-s92u2dh0j88va8jguli2m8d1hioor9e8.apps.googleusercontent.com&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Foauth2callback&response_type=code&scope=https%3A%2F%2Fdocs.google.com%2Ffeeds%2F+https%3A%2F%2Fdocs.googleusercontent.com%2F+https%3A%2F%2Fspreadsheets.google.com%2Ffeeds%2F
 Filter chain halted as :google_drive_login rendered or redirected
 Completed 302 Found in 1ms
+Processing by StockController#index as HTML
+Redirected to https://accounts.google.com/o/oauth2/auth?access_type=offline&client_id=203558282158-s92u2dh0j88va8jguli2m8d1hioor9e8.apps.googleusercontent.com&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Foauth2callback&response_type=code&scope=https%3A%2F%2Fdocs.google.com%2Ffeeds%2F+https%3A%2F%2Fdocs.googleusercontent.com%2F+https%3A%2F%2Fspreadsheets.google.com%2Ffeeds%2F
+Filter chain halted as :google_drive_login rendered or redirected
+Completed 302 Found in 3ms
+Processing by StockController#index as JSON
+Redirected to https://accounts.google.com/o/oauth2/auth?access_type=offline&client_id=203558282158-s92u2dh0j88va8jguli2m8d1hioor9e8.apps.googleusercontent.com&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Foauth2callback&response_type=code&scope=https%3A%2F%2Fdocs.google.com%2Ffeeds%2F+https%3A%2F%2Fdocs.googleusercontent.com%2F+https%3A%2F%2Fspreadsheets.google.com%2Ffeeds%2F
+Filter chain halted as :google_drive_login rendered or redirected
+Completed 302 Found in 1ms
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-06 15:44:16 +0100
+Processing by StaticPagesController#index as HTML
+  Rendered static_pages/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 89ms (Views: 78.7ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-06 15:44:16 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-06 15:44:16 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-06 15:44:16 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-06 15:44:16 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-06 15:44:16 +0100
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-06 15:52:24 +0100
+Processing by StaticPagesController#index as HTML
+  Rendered static_pages/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 6ms (Views: 5.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-06 15:52:24 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-06 15:52:24 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-06 15:52:24 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-06 15:52:24 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-06 15:52:24 +0100
+
+
+Started GET "/stock" for 127.0.0.1 at 2015-01-06 15:52:26 +0100
+Processing by StockController#index as HTML
+Completed 500 Internal Server Error in 4ms
+
+NameError (undefined local variable or method `google_session' for #<StockController:0x007fb87c5c2b00>):
+  app/controllers/stock_controller.rb:7:in `index'
+
+
+  Rendered /Users/haricarreras/.rvm/rubies/ruby-2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.0.12/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.0ms)
+  Rendered /Users/haricarreras/.rvm/rubies/ruby-2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.0.12/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.6ms)
+  Rendered /Users/haricarreras/.rvm/rubies/ruby-2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.0.12/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+  Rendered /Users/haricarreras/.rvm/rubies/ruby-2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.0.12/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (24.0ms)
+
+
+Started GET "/stock" for 127.0.0.1 at 2015-01-06 15:52:26 +0100
+Processing by StockController#index as HTML
+Completed 500 Internal Server Error in 3ms
+
+NameError (undefined local variable or method `google_session' for #<StockController:0x007fb87f138258>):
+  app/controllers/stock_controller.rb:7:in `index'
+
+
+  Rendered /Users/haricarreras/.rvm/rubies/ruby-2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.0.12/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.9ms)
+  Rendered /Users/haricarreras/.rvm/rubies/ruby-2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.0.12/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+  Rendered /Users/haricarreras/.rvm/rubies/ruby-2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.0.12/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+  Rendered /Users/haricarreras/.rvm/rubies/ruby-2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.0.12/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (16.8ms)
+
+
+Started GET "/stock" for 127.0.0.1 at 2015-01-06 15:54:01 +0100
+Processing by StockController#index as HTML
+Completed 500 Internal Server Error in 1ms
+
+GoogleDrive::Error (access_token is neither String, OAuth2::Token nor OAuth::Token: nil):
+  app/controllers/stock_controller.rb:6:in `index'
+
+
+  Rendered /Users/haricarreras/.rvm/rubies/ruby-2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.0.12/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.7ms)
+  Rendered /Users/haricarreras/.rvm/rubies/ruby-2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.0.12/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+  Rendered /Users/haricarreras/.rvm/rubies/ruby-2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.0.12/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.6ms)
+  Rendered /Users/haricarreras/.rvm/rubies/ruby-2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.0.12/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (13.5ms)
+
+
+Started GET "/stock" for 127.0.0.1 at 2015-01-06 15:54:15 +0100
+Processing by StockController#index as HTML
+Redirected to https://accounts.google.com/o/oauth2/auth?access_type=offline&client_id=203558282158-s92u2dh0j88va8jguli2m8d1hioor9e8.apps.googleusercontent.com&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Foauth2callback&response_type=code&scope=https%3A%2F%2Fdocs.google.com%2Ffeeds%2F+https%3A%2F%2Fdocs.googleusercontent.com%2F+https%3A%2F%2Fspreadsheets.google.com%2Ffeeds%2F
+Filter chain halted as :google_drive_login rendered or redirected
+Completed 302 Found in 14ms
+
+
+Started GET "/stock" for 127.0.0.1 at 2015-01-06 16:13:10 +0100
+Processing by StockController#index as HTML
+Redirected to https://accounts.google.com/o/oauth2/auth?access_type=offline&client_id=203558282158-s92u2dh0j88va8jguli2m8d1hioor9e8.apps.googleusercontent.com&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Foauth2callback&response_type=code&scope=https%3A%2F%2Fdocs.google.com%2Ffeeds%2F+https%3A%2F%2Fdocs.googleusercontent.com%2F+https%3A%2F%2Fspreadsheets.google.com%2Ffeeds%2F
+Filter chain halted as :google_drive_login rendered or redirected
+Completed 302 Found in 2ms
+
+
+Started GET "/stock" for 127.0.0.1 at 2015-01-06 16:13:10 +0100
+Processing by StockController#index as HTML
+Redirected to https://accounts.google.com/o/oauth2/auth?access_type=offline&client_id=203558282158-s92u2dh0j88va8jguli2m8d1hioor9e8.apps.googleusercontent.com&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Foauth2callback&response_type=code&scope=https%3A%2F%2Fdocs.google.com%2Ffeeds%2F+https%3A%2F%2Fdocs.googleusercontent.com%2F+https%3A%2F%2Fspreadsheets.google.com%2Ffeeds%2F
+Filter chain halted as :google_drive_login rendered or redirected
+Completed 302 Found in 3ms
+
+
+Started GET "/oauth2callback?code=4/ztepmypVWFeHOXi4xo0bIr6QYIfQE2kJUzMnXvLP-ds.QhyeA2wy0twSoiIBeO6P2m_KEKF_lQI" for 127.0.0.1 at 2015-01-06 16:13:22 +0100
+Processing by StockController#set_google_drive_token as HTML
+  Parameters: {"code"=>"4/ztepmypVWFeHOXi4xo0bIr6QYIfQE2kJUzMnXvLP-ds.QhyeA2wy0twSoiIBeO6P2m_KEKF_lQI"}
+Redirected to http://localhost:3000/stock
+Completed 302 Found in 1512ms
+
+
+Started GET "/stock" for 127.0.0.1 at 2015-01-06 16:13:24 +0100
+Processing by StockController#index as HTML
+  Rendered stock/index.html.erb within layouts/application (2069.3ms)
+Completed 200 OK in 5612ms (Views: 2073.6ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-06 16:13:29 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-06 16:13:29 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-06 16:13:30 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-06 16:13:30 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-06 16:13:30 +0100
+
+
+Started GET "/stock/4.json" for 127.0.0.1 at 2015-01-06 16:14:36 +0100
+Processing by StockController#show as JSON
+  Parameters: {"id"=>"4"}
+Completed 500 Internal Server Error in 75342ms
+
+Errno::EHOSTUNREACH (No route to host - connect(2) for "spreadsheets.google.com" port 443):
+  app/controllers/stock_controller.rb:17:in `show'
+
+
+  Rendered /Users/haricarreras/.rvm/rubies/ruby-2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.0.12/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.9ms)
+  Rendered /Users/haricarreras/.rvm/rubies/ruby-2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.0.12/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.6ms)
+  Rendered /Users/haricarreras/.rvm/rubies/ruby-2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.0.12/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.8ms)
+  Rendered /Users/haricarreras/.rvm/rubies/ruby-2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.0.12/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (14.8ms)
+
+
+Started GET "/stock" for 127.0.0.1 at 2015-01-06 16:16:28 +0100
+Processing by StockController#index as HTML
+  Rendered stock/index.html.erb within layouts/application (2661.7ms)
+Completed 200 OK in 114553ms (Views: 2665.8ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-06 16:18:22 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-06 16:18:22 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-06 16:18:22 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-06 16:18:22 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-06 16:18:22 +0100
+
+
+Started GET "/stock" for 127.0.0.1 at 2015-01-06 16:19:16 +0100
+Processing by StockController#index as HTML
+  Rendered stock/index.html.erb within layouts/application (9637.3ms)
+Completed 200 OK in 10164ms (Views: 9641.6ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-06 16:19:27 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-06 16:19:27 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-06 16:19:27 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-06 16:19:27 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-06 16:19:27 +0100
+
+
+Started GET "/stock/4.json" for 127.0.0.1 at 2015-01-06 16:19:31 +0100
+Processing by StockController#show as JSON
+  Parameters: {"id"=>"4"}
+Completed 200 OK in 2361ms (Views: 0.4ms)
+
+
+Started GET "/stock/5.json" for 127.0.0.1 at 2015-01-06 16:19:38 +0100
+Processing by StockController#show as JSON
+  Parameters: {"id"=>"5"}
+Completed 200 OK in 3378ms (Views: 0.3ms)
+
+
+Started GET "/stock.json" for 127.0.0.1 at 2015-01-06 16:22:05 +0100
+Processing by StockController#index as JSON
+Completed 200 OK in 15239ms (Views: 52.7ms)
+
+
+Started GET "/stock/4.json" for 127.0.0.1 at 2015-01-06 16:25:03 +0100
+Processing by StockController#show as JSON
+  Parameters: {"id"=>"4"}
+Completed 200 OK in 12123ms (Views: 0.3ms)
+
+
+Started GET "/stock/1.json" for 127.0.0.1 at 2015-01-06 16:25:35 +0100
+Processing by StockController#show as JSON
+  Parameters: {"id"=>"1"}
+Completed 200 OK in 3139ms (Views: 0.3ms)
+
+
+Started GET "/stock/1.json" for 127.0.0.1 at 2015-01-06 16:28:08 +0100
+Processing by StockController#show as JSON
+  Parameters: {"id"=>"1"}
+Completed 200 OK in 7002ms (Views: 0.4ms)
+
+
+Started GET "/stock/1.json" for 127.0.0.1 at 2015-01-06 16:28:34 +0100
+Processing by StockController#show as JSON
+  Parameters: {"id"=>"1"}
+Completed 200 OK in 3095ms (Views: 0.3ms)

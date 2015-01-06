@@ -15,9 +15,10 @@ class StockController < ApplicationController
   def show
     google_session = GoogleDrive.login_with_oauth(session[:google_token])
     @sheet = google_session.spreadsheet_by_key("0AgWDbm7D_t2RdGFfdldFX3Z1aFllRG83bjZTYzU5VkE").worksheets[0]
+    rows = @sheet.rows[1..-1]
 
     respond_to do |format|
-      format.json{ render json: row_to_hash(@sheet, @sheet.rows[params[:id].to_i])}
+      format.json{ render json: row_to_hash(@sheet, rows[params[:id].to_i])}
     end
   end
 
