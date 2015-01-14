@@ -1,4 +1,3 @@
-require 'google_drive/google_docs'
 class StockController < ApplicationController
   before_action :login
 
