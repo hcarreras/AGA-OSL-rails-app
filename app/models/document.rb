@@ -21,4 +21,15 @@ class Document
       [@data.rows[1][index], value]
     end.to_h
   end
+
+  def delete_row(reference)
+    @data.rows.to_enum.with_index(1).each do |row, row_index|
+      if row[0] == reference
+        row.to_enum.with_index(1).each do |_, index|
+          @data[row_index, index] = ''
+        end
+      end
+    end
+    @data.save
+  end
 end

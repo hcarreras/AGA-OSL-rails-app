@@ -1,5 +1,6 @@
 class StockController < ApplicationController
   before_action :login
+  skip_before_filter :verify_authenticity_token
 
   def index
     @sheet = document.data
@@ -14,6 +15,14 @@ class StockController < ApplicationController
     row = document.find_by_reference(params[:id])
     respond_to do |format|
       format.json{ render json: document.row_to_hash(row)}
+    end
+  end
+
+  def destroy
+    if document.delete_row(params[:id])
+      head 200, content_type: "text/html"
+    else
+      head 500, content_type: "text/html"
     end
   end
 
