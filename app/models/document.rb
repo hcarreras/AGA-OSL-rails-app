@@ -22,18 +22,12 @@ class Document
     end.to_h
   end
 
-  def delete_row(reference)
-    @data.rows.to_enum.with_index(1).each do |row, row_index|
-      if row[0] == reference
-        row.to_enum.with_index(1).each do |_, index|
-          @data[row_index, index] = ''
-        end
-      end
-    end
-    @data.save
+  def add_row(data)
+    @data[@data.num_rows + 1, 1] = last_reference + 1
+    update_row(last_reference + 1, data)
   end
 
-  def update_row(reference, new_data)
+  def delete_row(reference)
     @data.rows.to_enum.with_index(1).each do |row, row_index|
       if row[0] == reference
         1.upto(@data.max_cols) do |index|
@@ -45,5 +39,25 @@ class Document
       end
     end
     @data.save
+  end
+
+  def update_row(reference, new_data)
+    @data.rows.to_enum.with_index(1).each do |row, row_index|
+      if row[0] == reference.to_s
+        2.upto(@data.num_cols) do |index|
+          @data[row_index, index] = ''
+        end
+        new_data.to_enum.with_index(2).each do |value , index|
+          @data[row_index, index] = value
+        end
+      end
+    end
+    @data.save
+  end
+
+  private
+
+  def last_reference
+    @data["B1"].to_i
   end
 end

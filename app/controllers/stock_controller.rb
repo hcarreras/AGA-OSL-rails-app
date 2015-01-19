@@ -11,6 +11,14 @@ class StockController < ApplicationController
     end
   end
 
+  def create
+    if document.add_row(params[:data])
+      head 200, content_type: "text/html"
+    else
+      head 500, content_type: "text/html"
+    end
+  end
+
   def show
     row = document.find_by_reference(params[:id])
     respond_to do |format|
