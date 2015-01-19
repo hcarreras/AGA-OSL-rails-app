@@ -26,6 +26,14 @@ class StockController < ApplicationController
     end
   end
 
+  def update
+    if document.update_row(params[:id], params[:data])
+      head 200, content_type: "text/html"
+    else
+      head 500, content_type: "text/html"
+    end
+  end
+
   def login
     @session = GoogleDrive.login(ENV["GDRIVE_USERNAME"], ENV["GDRIVE_PASSWORD"])
   end

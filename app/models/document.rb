@@ -32,4 +32,18 @@ class Document
     end
     @data.save
   end
+
+  def update_row(reference, new_data)
+    @data.rows.to_enum.with_index(1).each do |row, row_index|
+      if row[0] == reference
+        1.upto(@data.max_cols) do |index|
+          @data[row_index, index] = ''
+        end
+        new_data.to_enum.with_index(2).each do |value , index|
+          @data[row_index, index] = value
+        end
+      end
+    end
+    @data.save
+  end
 end
