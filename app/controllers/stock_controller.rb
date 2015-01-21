@@ -47,6 +47,6 @@ class StockController < ApplicationController
   end
 
   def document
-    Document.new(@session.spreadsheet_by_key("0AgWDbm7D_t2RdGFfdldFX3Z1aFllRG83bjZTYzU5VkE").worksheets[0])
+    Document.new(@session.spreadsheet_by_key("1UAB7hIZ_iHl1L1i3P6m--rclLCf8wR-8g6jcQ3dRthQ").worksheets[0])
   end
 end
