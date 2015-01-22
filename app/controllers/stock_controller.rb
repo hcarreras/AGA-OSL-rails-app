@@ -5,14 +5,16 @@ class StockController < ApplicationController
   def index
     @sheet = document.data
 
+    #{request_data: [{reference: 15, last_modification: "11/12/2014"}, {reference: 15, last_modification: "22/01/2015"}]}
+
     respond_to do |format|
       format.html
-      format.json{ render json: document.to_hash(without_headers: true)}
+      format.json{ render json: document.to_hash}
     end
   end
 
   def create
-    if document.add_row(params[:data])
+    if document.add_computer(params[:data])
       head 200, content_type: "text/html"
     else
       head 500, content_type: "text/html"
@@ -20,9 +22,13 @@ class StockController < ApplicationController
   end
 
   def show
-    row = document.find_by_reference(params[:id])
+    computer = document.find_by_reference(params[:id])
     respond_to do |format|
-      format.json{ render json: document.row_to_hash(row)}
+      if computer.valid?
+        format.json{ render json: computer.to_hash}
+      else
+        format.json{ render json: {error: "not-found"}, :status => 404}
+      end
     end
   end
 

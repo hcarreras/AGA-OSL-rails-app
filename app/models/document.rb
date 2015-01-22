@@ -1,44 +1,41 @@
 class Document
+
   attr_accessor :data
 
   def initialize data
-    @data = data
+    @data = data.rows[2..-1].map do |row|
+      Computer.new(row)
+    end
+
+    @last_reference = data["B1"].to_i
+    @num_rows = data.num_rows
+    @num_cols = data.num_cols
+    @raw_document = data
   end
 
-  def to_hash(opts = {})
-    raw_data = opts.has_key?(:without_headers) ? @data.rows[2..-1] : @data.rows
-    raw_data.map{|row| row_to_hash(row)}
+  def filter_rows_by_reference_and_date requested_data
+    requested_data.map do |reference_and_date|
+      find_by_reference(reference_and_date.reference )
+    end.keep_if do |row|
+      row
+    end
+  end
+
+  def to_hash()
+    @data.inject([]) do |result, computer|
+      result << computer.to_hash if computer.valid?
+      result
+    end
   end
 
   def find_by_reference reference
-    @data.rows[2..-1].each do |row|
-      return row if row[0] == reference
-    end
+    computer = @data.first { |value| value.referencia == reference }
+    computer.referencia == reference ? computer : Computer.new()
   end
 
-  def row_to_hash(row)
-    row.each_with_index.map do |value, index|
-      [@data.rows[1][index], value]
-    end.to_h
-  end
-
-  def add_row(data)
-    @data[@data.num_rows + 1, 1] = last_reference + 1
-    update_row(last_reference + 1, data)
-  end
-
-  def delete_row(reference)
-    @data.rows.to_enum.with_index(1).each do |row, row_index|
-      if row[0] == reference
-        1.upto(@data.max_cols) do |index|
-          @data[row_index, index] = ''
-        end
-        new_data.to_enum.with_index(2).each do |value , index|
-          @data[row_index, index] = value
-        end
-      end
-    end
-    @data.save
+  def add_computer(data)
+    computer = Computer.new([last_reference + 1] + data)
+    write(@num_rows + 1, computer)
   end
 
   def update_row(reference, new_data)
@@ -55,9 +52,7 @@ class Document
     @data.save
   end
 
-  private
-
-  def last_reference
-    @data["B1"].to_i
+  def write row, computer
+    @raw_document.rows
   end
 end
