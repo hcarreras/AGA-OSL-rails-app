@@ -5,8 +5,6 @@ class StockController < ApplicationController
   def index
     @sheet = document.data
 
-    #{request_data: [{reference: 15, last_modification: "11/12/2014"}, {reference: 15, last_modification: "22/01/2015"}]}
-
     respond_to do |format|
       format.html
       format.json{ render json: document.to_hash}
@@ -41,7 +39,7 @@ class StockController < ApplicationController
   end
 
   def update
-    if document.update_row(params[:id], params[:data])
+    if document.update_computer(params[:id], params[:data])
       head 200, content_type: "text/html"
     else
       head 500, content_type: "text/html"
