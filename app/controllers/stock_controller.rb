@@ -22,7 +22,7 @@ class StockController < ApplicationController
   def show
     computer = document.find_by_reference(params[:id])
     respond_to do |format|
-      if computer.valid?
+      if computer
         format.json{ render json: computer.to_hash}
       else
         format.json{ render json: {error: "not-found"}, :status => 404}
