@@ -1,6 +1,4 @@
 class Document
-  attr_accessor :data
-
   def initialize data
     @data = data.rows[2..-1].to_enum.map.with_index(3) do |data, row|
       Computer.new(data, row)
@@ -10,6 +8,16 @@ class Document
     @num_rows = data.num_rows
     @num_cols = data.num_cols
     @worksheet = data
+  end
+
+  def data(requested_data)
+    if requested_data
+      @data.select do |computer|
+        [requested_data].flatten.detect{|requested_computer| requested_computer[:referencia] == computer.referencia &&  Date.strptime(requested_computer[:ultima_modificacion], "%d/%m/%Y")  < computer.ultima_modificacion}
+      end
+    else
+      @data
+    end
   end
 
   def to_hash()

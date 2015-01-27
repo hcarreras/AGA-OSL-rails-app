@@ -1,12 +1,12 @@
 class Computer
-  attr_accessor :referencia, :revisado, :localizacion, :tipo, :cpu, :mhz, :ram, :disco_duro, :cd_dvd, :floppy, :ethernet, :fuente_alimentación, :notas, :campana_numero, :puntuacion_cpu, :puntuacion_ram, :puntuacion_dd, :puntuacion, :fecha_de_modificacion, :row
+  attr_accessor :referencia, :revisado, :localizacion, :tipo, :cpu, :mhz, :ram, :disco_duro, :cd_dvd, :floppy, :ethernet, :fuente_alimentacion, :notas, :campana_numero, :puntuacion_cpu, :puntuacion_ram, :puntuacion_dd, :puntuacion, :ultima_modificacion, :row
 
   def initialize data = [], row = nil
     update(data, row)
   end
 
   def update data, row
-    @referencia = data[0]
+    @referencia = data[0].to_i
     @revisado = data[1]
     @localizacion = data[2]
     @tipo = data[3]
@@ -17,14 +17,14 @@ class Computer
     @cd_dvd = data[8]
     @floppy = data[9]
     @ethernet = data[10]
-    @fuente_alimentación = data[11]
+    @fuente_alimentacion = data[11]
     @notas = data[12]
     @campana_numero = data[13]
     @puntuacion_cpu = data[14]
     @puntuacion_ram = data[15]
     @puntuacion_dd = data[16]
     @puntuacion = data[17]
-    @fecha_de_modificacion = data[18]
+    @ultima_modificacion = data[18].present? ? Date.strptime(data[18], "%d/%m/%Y") : Date.today
     @row = row
   end
 

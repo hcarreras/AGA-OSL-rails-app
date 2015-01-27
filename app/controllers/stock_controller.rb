@@ -3,11 +3,10 @@ class StockController < ApplicationController
   skip_before_filter :verify_authenticity_token
 
   def index
-    @sheet = document.data
-
+    @sheet = document.data(params[:request_data])
     respond_to do |format|
       format.html
-      format.json{ render json: document.to_hash}
+      format.json{ render json: @sheet}
     end
   end
 
