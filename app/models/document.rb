@@ -28,7 +28,7 @@ class Document
   end
 
   def find_by_reference reference
-    @data.select { |value| value.referencia == reference }.first
+    @data.select { |value| value.referencia == reference.to_i }.first
   end
 
   def add_computer(data)
