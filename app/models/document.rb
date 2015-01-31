@@ -13,7 +13,7 @@ class Document
   def data(requested_data)
     if requested_data
       @data.select do |computer|
-        [requested_data].flatten.detect{|requested_computer| requested_computer[:referencia] == computer.referencia &&  Date.strptime(requested_computer[:ultima_modificacion], "%d/%m/%Y")  < computer.ultima_modificacion}
+        [eval(requested_data)].flatten.detect{|requested_computer| requested_computer[:referencia] == computer.referencia &&  Date.strptime(requested_computer[:ultima_modificacion], "%d/%m/%Y")  < computer.ultima_modificacion}
       end
     else
       @data
