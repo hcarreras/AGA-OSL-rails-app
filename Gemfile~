@@ -33,6 +33,7 @@ gem 'google_drive'
 gem 'oauth2'
 gem 'google-api-client', '~> 0.7.1'
 gem 'rest-client'
+
 gem "figaro"
 gem "pry"
 gem "newrelic_rpm"
@@ -45,7 +46,7 @@ end
 # gem 'bcrypt', '~> 3.1.7'
 
 # Use unicorn as the app server
-gem 'unicorn'
+# gem 'unicorn'
 
 # Use Capistrano for deployment
 # gem 'capistrano', group: :development

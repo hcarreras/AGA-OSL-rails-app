@@ -2,4 +2,6 @@
 FROM seapy/rails-nginx-unicorn
 MAINTAINER hcarreras(haricarreras@gmail.com)
 
+ADD config/application.yml /app/config/application.yml
+
 EXPOSE 80
