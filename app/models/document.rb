@@ -1,4 +1,6 @@
 class Document
+  attr_accessor :data
+
   def initialize data
     @data = data.rows[2..-1].to_enum.map.with_index(3) do |data, row|
       Computer.new(data, row)
@@ -10,13 +12,9 @@ class Document
     @worksheet = data
   end
 
-  def data(requested_data)
-    if requested_data
-      @data.select do |computer|
-        [eval(requested_data)].flatten.detect{|requested_computer| requested_computer[:referencia] == computer.referencia &&  Date.strptime(requested_computer[:ultima_modificacion], "%d/%m/%Y")  < computer.ultima_modificacion}
-      end
-    else
-      @data
+  def search requested_data
+    @data.select do |computer|
+      [eval(requested_data)].flatten.detect{|requested_computer| requested_computer[:referencia].to_i == computer.referencia &&  Date.strptime(requested_computer[:ultima_modificacion], "%d/%m/%Y")  < computer.ultima_modificacion}
     end
   end
 
