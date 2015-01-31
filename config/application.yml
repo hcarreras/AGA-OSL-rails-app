@@ -1,2 +1,7 @@
+<<<<<<< HEAD
 GDRIVE_USERNAME: "agaoslrails"
 GDRIVE_PASSWORD: "11agaoslrails11"
+=======
+GDRIVE_USERNAME = "agaoslrails"
+GDRIVE_PASSWORD = "11agaoslrails11"
+>>>>>>> Edited env rails
