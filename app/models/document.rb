@@ -3,8 +3,9 @@ class Document
 
   def initialize data
     @data = data.rows[2..-1].to_enum.map.with_index(3) do |data, row|
-      Computer.new(data, row)
-    end
+      computer = Computer.new(data, row)
+      computer if computer.valid?
+    end.compact
 
     @last_reference = data["B1"].to_i
     @num_rows = data.num_rows
@@ -14,7 +15,7 @@ class Document
 
   def search requested_data
     @data.select do |computer|
-      [eval(requested_data)].flatten.detect{|requested_computer| requested_computer[:referencia].to_i == computer.referencia &&  Date.strptime(requested_computer[:ultima_modificacion], "%d/%m/%Y")  < computer.ultima_modificacion}
+      [eval(requested_data)].flatten.none?{|requested_computer| requested_computer[:referencia].to_i == computer.referencia} || [eval(requested_data)].flatten.any?{|requested_computer| requested_computer[:referencia].to_i == computer.referencia &&  Date.strptime(requested_computer[:ultima_modificacion], "%d/%m/%Y")  < computer.ultima_modificacion}
     end
   end
 
@@ -26,7 +27,8 @@ class Document
   end
 
   def find_by_reference reference
-    @data.select { |value| value.referencia == reference.to_i }.first
+    computer = @data.select { |value| value.referencia == reference.to_i }.first
+    computer.nil? ? raise(ActionController::RoutingError.new('Not Found')) : computer
   end
 
   def add_computer(data)

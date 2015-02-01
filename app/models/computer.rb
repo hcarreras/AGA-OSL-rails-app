@@ -43,6 +43,6 @@ class Computer
   end
 
   def invalid?
-    referencia.blank?
+    referencia.blank? || referencia == 0
   end
 end
