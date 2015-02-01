@@ -3,7 +3,7 @@ class Stock::SearchesController < ApplicationController
   skip_before_filter :verify_authenticity_token
 
   def create
-    @sheet = document.search(params[:request_data])
+    @sheet = params[:request_data].blank? ? document.data : document.search(params[:request_data])
     respond_to do |format|
       format.json{ render json: @sheet}
     end
