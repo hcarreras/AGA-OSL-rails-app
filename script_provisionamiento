@@ -1,0 +1,20 @@
+#!/bin/bash
+# En el directorio del proyecto RoR
+git clone https://github.com/hcarreras/AGA-OSL-rails-app.git
+cd AGA-OSL-rails-app
+# Descargamos e instalamos vagrant y virtual-box
+# Descargamos vagrant 1.7.2
+wget https://dl.bintray.com/mitchellh/vagrant/vagrant_1.7.2_x86_64.deb
+# Instalamos el paquete deb con dpkg
+sudo dpkg -i vagrant_1.7.2_x86_64.deb
+# Instalamos virtual-box
+sudo apt-get update
+sudo apt-get install virtualbox
+# Plugins vagrant necesarios
+vagrant plugin install vagrant-vbguest
+vagrant plugin install vagrant-librarian-chef
+# Iniciamos la máquina virtual
+sudo vagrant up
+# Accedemos vía ssh
+sudo vagrant ssh
+
