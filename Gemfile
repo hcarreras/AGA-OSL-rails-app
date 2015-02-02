@@ -35,7 +35,6 @@ gem 'google_drive'
 gem 'oauth2'
 gem 'google-api-client', '~> 0.7.1'
 gem 'rest-client'
-
 gem "figaro"
 gem "pry"
 gem "newrelic_rpm"

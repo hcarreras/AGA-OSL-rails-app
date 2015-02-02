@@ -29,14 +29,6 @@ class StockController < ApplicationController
     end
   end
 
-  def destroy
-    if document.delete_row(params[:id])
-      head 200, content_type: "text/html"
-    else
-      head 500, content_type: "text/html"
-    end
-  end
-
   def update
     if document.update_computer(params[:id], params[:data])
       head 200, content_type: "text/html"

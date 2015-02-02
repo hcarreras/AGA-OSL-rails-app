@@ -24,7 +24,7 @@ class Computer
     @puntuacion_ram = data[15]
     @puntuacion_dd = data[16]
     @puntuacion = data[17]
-    @ultima_modificacion = data[18].present? ? Date.strptime(data[18], "%d/%m/%Y") : Date.today
+    @ultima_modificacion = data[18].present? ? Date.strptime(data[18], "%d/%m/%Y") :  DateTime.now.strftime('%d/%m/%Y')
     @row = row
   end
 

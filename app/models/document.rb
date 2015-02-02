@@ -1,5 +1,5 @@
 class Document
-  attr_accessor :data
+  attr_accessor :data, :last_reference
 
   def initialize data
     @data = data.rows[2..-1].to_enum.map.with_index(3) do |data, row|
@@ -40,7 +40,7 @@ class Document
     computer = find_by_reference(reference)
     if computer
       computer.update([computer.referencia] + new_data, computer.row)
-      computer.fecha_de_modificacion = Date.today.strftime("%d/%m/%Y")
+      computer.ultima_modificacion = Date.today.strftime("%d/%m/%Y")
       write(computer.row ,computer )
     else
       raise ActionController::RoutingError.new('Not Found')
